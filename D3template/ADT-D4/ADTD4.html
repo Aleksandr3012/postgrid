@@ -649,7 +649,7 @@
 		orphans: 2;
 		widows: 2;
 		text-align: left;
-		height: 11pt
+		height: 11px
 	}
 
 	.c26 {
@@ -1007,20 +1007,20 @@
 	<p class="c1 title"><span class="c16"></span></p>
 </div>
 <p class="c1"><span class="c2"></span></p>
-<p class="c5"><span class="c0">&laquo;Todays_Date_MMMM_DD_YYYY&raquo;</span></p>
+<p class="c5"><span class="c0">{{Todays_Date_MMMM_DD_YYYY}}</span></p>
 <p class="c1"><span class="c2"></span></p>
-<p class="c5"><span class="c0">&laquo;Account_Address_Block&raquo;</span></p>
-<p class="c5"><span class="c0">File No. &laquo;Account_Number&raquo;</span></p>
-<p class="c5"><span class="c0">Creditor: &laquo;CliFile_Name&raquo;</span></p>
-<p class="c5"><span class="c0">Creditor Reference No. &laquo;Client_Ref_Num&raquo;</span></p>
-<p class="c5"><span>Amount Due: </span><span class="c19">&laquo;Actual_Total_Jmt_NonJmt_Owing&raquo;</span></p>
+<p class="c5"><span class="c0">{{Account_Address_Block}}</span></p>
+<p class="c5"><span class="c0">File No. {{Account_Number}}</span></p>
+<p class="c5"><span class="c0">Creditor: {{CliFile_Name}}</span></p>
+<p class="c5"><span class="c0">Creditor Reference No. {{Client_Ref_Num}}</span></p>
+<p class="c5"><span>Amount Due: </span><span class="c19">{{Actual_Total_Jmt_NonJmt_Owing}}</span></p>
 <p class="c25 c23"><span class="c2"></span></p>
 <p class="c23 c25"><span class="c2"></span></p>
-<p class="c11"><span class="c0">We have not received payment to resolve the &laquo;Actual_Total_Jmt_NonJmt_Owing&raquo; balance owed to &laquo;CliFile_Name&raquo; (&ldquo;ADT&rdquo;) and you have had ample opportunity to submit payment or actively communicate with our firm. &nbsp;Per our previous correspondence, this unpaid ADT balance was reported to the credit bureaus and now appears as a negative marking on your credit report. &nbsp;Until you resolve this matter, your credit may be affected for up to 6 years. &nbsp;ADT would like us to work with you to resolve this matter without taking any further action, but time is of the essence.</span></p>
+<p class="c11"><span class="c0">We have not received payment to resolve the {{Actual_Total_Jmt_NonJmt_Owing}} balance owed to {{CliFile_Name}} (&ldquo;ADT&rdquo;) and you have had ample opportunity to submit payment or actively communicate with our firm. &nbsp;Per our previous correspondence, this unpaid ADT balance was reported to the credit bureaus and now appears as a negative marking on your credit report. &nbsp;Until you resolve this matter, your credit may be affected for up to 6 years. &nbsp;ADT would like us to work with you to resolve this matter without taking any further action, but time is of the essence.</span></p>
 <p class="c11 c23"><span class="c0"></span></p>
-<p class="c11"><span class="c0">To remove credit reporting and prevent escalated collection activities, we must receive a &laquo;Actual_Total_Jmt_NonJmt_Owing&raquo; payment by &laquo;Date_plus_7_days&raquo; in any of the following methods:</span></p>
+<p class="c11"><span class="c0">To remove credit reporting and prevent escalated collection activities, we must receive a {{Actual_Total_Jmt_NonJmt_Owing}} payment by {{Date_plus_7_days}} in any of the following methods:</span></p>
 <ol class="c4 lst-kix_list_4-0 start" start="1">
-	<li class="c6 li-bullet-0"><span class="c0">Mail &ndash; draft a check payable to ADT with file number &laquo;Account_Number&raquo; on the memo line and mail the check to our office at the address below</span></li>
+	<li class="c6 li-bullet-0"><span class="c0">Mail &ndash; draft a check payable to ADT with file number {{Account_Number}} on the memo line and mail the check to our office at the address below</span></li>
 	<li class="c6 li-bullet-0"><span class="c0">Online* &ndash; pay with check or credit card with our processor: </span><span class="c9"><a class="c28" href="https://www.afm-usa.com/payment">https://www.afm-usa.com/payment</a></span></li>
 	<li class="c6 li-bullet-0"><span class="c0">Phone* &ndash; pay with check or credit card by contacting our office at </span><span class="c20">(847) 259-4700</span><span class="c0">.</span></li>
 </ol>
@@ -1030,13 +1030,13 @@
 <p class="c11 c23"><span class="c2"></span></p>
 <p class="c11"><span class="c0">Thank you,</span></p>
 <p class="c12"><span class="c2"></span></p>
-<p class="c11"><span class="c27">&laquo;COLLECTOR_NAME_SIGNATURE&raquo;</span></p>
+<p class="c11"><span class="c27">{{COLLECTOR_NAME_SIGNATURE}}</span></p>
 <p class="c12"><span class="c26"></span></p>
-<p class="c5"><span class="c20">&laquo;Collector_Pseudonym&raquo;</span></p>
-<p class="c5"><span class="c0">&laquo;X1005_Signature_Co_Line_1&raquo; &laquo;X1006_Signature_Co_Line_2&raquo;</span></p>
+<p class="c5"><span class="c20">{{Collector_Pseudonym}}</span></p>
+<p class="c5"><span class="c0">{{X1005_Signature_Co_Line_1}} {{X1006_Signature_Co_Line_2}}</span></p>
 <p class="c5"><span class="c0">P.O. Box 735633, Chicago, IL 60673-5633</span></p>
 <p class="c5"><span class="c0">P: (847) 259-4700 | F: (847) 259-9434</span></p>
-<p class="c5"><span class="c0">&laquo;X1095_COLLECTOR_EMAIL_CUSTOM&raquo; </span></p>
+<p class="c5"><span class="c0">{{X1095_COLLECTOR_EMAIL_CUSTOM}} </span></p>
 <p class="c1"><span class="c8"></span></p>
 <p class="c5"><span class="c29">This is an attempt to collect a debt by a debt collector. &nbsp;Any information obtained will be used for that purpose.</span></p>
 <p class="c1"><span class="c8"></span></p>
