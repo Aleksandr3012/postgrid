@@ -8,10 +8,6 @@
 	<style
 		type="text/css">@import url(https://themes.googleusercontent.com/fonts/css?kit=Wo0MXqxsCkUrFYfS1pYqbTSHmvcNCu1734T6TsyErKp0bF7KWPMyHpkMBwpjNk3a);
 
-	.lst-kix_list_4-1 > li {
-		counter-increment: lst-ctn-kix_list_4-1;
-	}
-
 	ol.lst-kix_list_3-1 {
 		list-style-type: none;
 	}
@@ -32,15 +28,15 @@
 		counter-reset: lst-ctn-kix_list_3-4 0;
 	}
 
+	.lst-kix_list_5-1 > li {
+		counter-increment: lst-ctn-kix_list_5-1;
+	}
+
 	ol.lst-kix_list_3-4 {
 		list-style-type: none;
 	}
 
-	.lst-kix_list_2-1 > li {
-		counter-increment: lst-ctn-kix_list_2-1;
-	}
-
-	ul.lst-kix_list_1-0 {
+	ol.lst-kix_list_3-0 {
 		list-style-type: none;
 	}
 
@@ -53,7 +49,7 @@
 	}
 
 	.lst-kix_list_3-0 > li:before {
-		content: "\0025cf   ";
+		content: "" counter(lst-ctn-kix_list_3-0, decimal) ". ";
 	}
 
 	ol.lst-kix_list_3-1.start {
@@ -74,6 +70,10 @@
 
 	.lst-kix_list_4-0 > li {
 		counter-increment: lst-ctn-kix_list_4-0;
+	}
+
+	.lst-kix_list_5-0 > li {
+		counter-increment: lst-ctn-kix_list_5-0;
 	}
 
 	ol.lst-kix_list_2-3.start {
@@ -116,6 +116,14 @@
 		content: "" counter(lst-ctn-kix_list_3-8, lower-roman) ". ";
 	}
 
+	.lst-kix_list_2-0 > li {
+		counter-increment: lst-ctn-kix_list_2-0;
+	}
+
+	ol.lst-kix_list_5-3.start {
+		counter-reset: lst-ctn-kix_list_5-3 0;
+	}
+
 	.lst-kix_list_2-3 > li {
 		counter-increment: lst-ctn-kix_list_2-3;
 	}
@@ -136,12 +144,20 @@
 		counter-reset: lst-ctn-kix_list_4-5 0;
 	}
 
+	ol.lst-kix_list_5-0.start {
+		counter-reset: lst-ctn-kix_list_5-0 0;
+	}
+
 	.lst-kix_list_1-2 > li {
 		counter-increment: lst-ctn-kix_list_1-2;
 	}
 
 	ol.lst-kix_list_3-7.start {
 		counter-reset: lst-ctn-kix_list_3-7 0;
+	}
+
+	.lst-kix_list_5-2 > li {
+		counter-increment: lst-ctn-kix_list_5-2;
 	}
 
 	ol.lst-kix_list_4-2.start {
@@ -160,12 +176,20 @@
 		list-style-type: none;
 	}
 
+	.lst-kix_list_5-0 > li:before {
+		content: "" counter(lst-ctn-kix_list_5-0, decimal) ". ";
+	}
+
 	ol.lst-kix_list_2-4 {
 		list-style-type: none;
 	}
 
 	ol.lst-kix_list_2-5 {
 		list-style-type: none;
+	}
+
+	.lst-kix_list_5-4 > li {
+		counter-increment: lst-ctn-kix_list_5-4;
 	}
 
 	.lst-kix_list_1-4 > li {
@@ -176,32 +200,68 @@
 		counter-increment: lst-ctn-kix_list_4-4;
 	}
 
-	ol.lst-kix_list_1-6.start {
-		counter-reset: lst-ctn-kix_list_1-6 0;
+	ol.lst-kix_list_2-0 {
+		list-style-type: none;
 	}
 
-	ol.lst-kix_list_2-1 {
-		list-style-type: none;
+	ol.lst-kix_list_1-6.start {
+		counter-reset: lst-ctn-kix_list_1-6 0;
 	}
 
 	.lst-kix_list_4-8 > li:before {
 		content: "" counter(lst-ctn-kix_list_4-8, lower-roman) ". ";
 	}
 
+	.lst-kix_list_5-3 > li:before {
+		content: "" counter(lst-ctn-kix_list_5-3, decimal) ". ";
+	}
+
 	.lst-kix_list_4-7 > li:before {
 		content: "" counter(lst-ctn-kix_list_4-7, lower-latin) ". ";
 	}
 
-	ol.lst-kix_list_4-1.start {
-		counter-reset: lst-ctn-kix_list_4-1 0;
+	.lst-kix_list_5-2 > li:before {
+		content: "" counter(lst-ctn-kix_list_5-2, lower-roman) ". ";
+	}
+
+	.lst-kix_list_5-1 > li:before {
+		content: "" counter(lst-ctn-kix_list_5-1, lower-latin) ". ";
+	}
+
+	.lst-kix_list_5-7 > li:before {
+		content: "" counter(lst-ctn-kix_list_5-7, lower-latin) ". ";
+	}
+
+	ol.lst-kix_list_5-6.start {
+		counter-reset: lst-ctn-kix_list_5-6 0;
+	}
+
+	.lst-kix_list_5-6 > li:before {
+		content: "" counter(lst-ctn-kix_list_5-6, decimal) ". ";
+	}
+
+	.lst-kix_list_5-8 > li:before {
+		content: "" counter(lst-ctn-kix_list_5-8, lower-roman) ". ";
 	}
 
 	ol.lst-kix_list_4-8.start {
 		counter-reset: lst-ctn-kix_list_4-8 0;
 	}
 
+	ul.lst-kix_list_4-1 {
+		list-style-type: none;
+	}
+
 	ol.lst-kix_list_3-3.start {
 		counter-reset: lst-ctn-kix_list_3-3 0;
+	}
+
+	.lst-kix_list_5-4 > li:before {
+		content: "" counter(lst-ctn-kix_list_5-4, lower-latin) ". ";
+	}
+
+	.lst-kix_list_5-5 > li:before {
+		content: "" counter(lst-ctn-kix_list_5-5, lower-roman) ". ";
 	}
 
 	ol.lst-kix_list_2-6 {
@@ -214,6 +274,14 @@
 
 	ol.lst-kix_list_2-8 {
 		list-style-type: none;
+	}
+
+	ol.lst-kix_list_1-0.start {
+		counter-reset: lst-ctn-kix_list_1-0 0;
+	}
+
+	.lst-kix_list_3-0 > li {
+		counter-increment: lst-ctn-kix_list_3-0;
 	}
 
 	.lst-kix_list_3-3 > li {
@@ -240,6 +308,10 @@
 		counter-reset: lst-ctn-kix_list_3-2 0;
 	}
 
+	ol.lst-kix_list_5-5.start {
+		counter-reset: lst-ctn-kix_list_5-5 0;
+	}
+
 	.lst-kix_list_2-2 > li {
 		counter-increment: lst-ctn-kix_list_2-2;
 	}
@@ -253,6 +325,10 @@
 	}
 
 	ol.lst-kix_list_1-3 {
+		list-style-type: none;
+	}
+
+	ol.lst-kix_list_5-0 {
 		list-style-type: none;
 	}
 
@@ -276,11 +352,23 @@
 		counter-increment: lst-ctn-kix_list_3-7;
 	}
 
+	ol.lst-kix_list_5-1 {
+		list-style-type: none;
+	}
+
 	ol.lst-kix_list_1-5 {
 		list-style-type: none;
 	}
 
+	ol.lst-kix_list_5-2 {
+		list-style-type: none;
+	}
+
 	ol.lst-kix_list_1-6 {
+		list-style-type: none;
+	}
+
+	ol.lst-kix_list_1-0 {
 		list-style-type: none;
 	}
 
@@ -304,16 +392,40 @@
 		list-style-type: none;
 	}
 
+	ol.lst-kix_list_5-4.start {
+		counter-reset: lst-ctn-kix_list_5-4 0;
+	}
+
 	ol.lst-kix_list_4-6.start {
 		counter-reset: lst-ctn-kix_list_4-6 0;
 	}
 
-	ul.lst-kix_list_3-0 {
+	ol.lst-kix_list_5-1.start {
+		counter-reset: lst-ctn-kix_list_5-1 0;
+	}
+
+	ol.lst-kix_list_3-0.start {
+		counter-reset: lst-ctn-kix_list_3-0 0;
+	}
+
+	ol.lst-kix_list_5-7 {
 		list-style-type: none;
+	}
+
+	ol.lst-kix_list_5-8 {
+		list-style-type: none;
+	}
+
+	.lst-kix_list_5-7 > li {
+		counter-increment: lst-ctn-kix_list_5-7;
 	}
 
 	ol.lst-kix_list_4-3.start {
 		counter-reset: lst-ctn-kix_list_4-3 0;
+	}
+
+	ol.lst-kix_list_5-3 {
+		list-style-type: none;
 	}
 
 	ol.lst-kix_list_1-7 {
@@ -322,6 +434,10 @@
 
 	.lst-kix_list_4-7 > li {
 		counter-increment: lst-ctn-kix_list_4-7;
+	}
+
+	ol.lst-kix_list_5-4 {
+		list-style-type: none;
 	}
 
 	.lst-kix_list_1-7 > li {
@@ -336,8 +452,20 @@
 		counter-reset: lst-ctn-kix_list_3-8 0;
 	}
 
+	ol.lst-kix_list_5-5 {
+		list-style-type: none;
+	}
+
+	ol.lst-kix_list_5-6 {
+		list-style-type: none;
+	}
+
 	ol.lst-kix_list_2-5.start {
 		counter-reset: lst-ctn-kix_list_2-5 0;
+	}
+
+	.lst-kix_list_5-8 > li {
+		counter-increment: lst-ctn-kix_list_5-8;
 	}
 
 	.lst-kix_list_4-0 > li:before {
@@ -353,7 +481,7 @@
 	}
 
 	.lst-kix_list_4-1 > li:before {
-		content: "" counter(lst-ctn-kix_list_4-1, lower-latin) ". ";
+		content: "\0025cf   ";
 	}
 
 	.lst-kix_list_4-6 > li {
@@ -392,12 +520,20 @@
 		content: "" counter(lst-ctn-kix_list_4-6, decimal) ". ";
 	}
 
+	ol.lst-kix_list_5-7.start {
+		counter-reset: lst-ctn-kix_list_5-7 0;
+	}
+
 	.lst-kix_list_1-8 > li {
 		counter-increment: lst-ctn-kix_list_1-8;
 	}
 
 	ol.lst-kix_list_1-4.start {
 		counter-reset: lst-ctn-kix_list_1-4 0;
+	}
+
+	.lst-kix_list_5-5 > li {
+		counter-increment: lst-ctn-kix_list_5-5;
 	}
 
 	.lst-kix_list_3-5 > li {
@@ -414,10 +550,6 @@
 
 	.lst-kix_list_3-4 > li {
 		counter-increment: lst-ctn-kix_list_3-4;
-	}
-
-	ol.lst-kix_list_4-1 {
-		list-style-type: none;
 	}
 
 	ol.lst-kix_list_4-4.start {
@@ -440,6 +572,10 @@
 		counter-reset: lst-ctn-kix_list_3-6 0;
 	}
 
+	.lst-kix_list_5-3 > li {
+		counter-increment: lst-ctn-kix_list_5-3;
+	}
+
 	ol.lst-kix_list_1-3.start {
 		counter-reset: lst-ctn-kix_list_1-3 0;
 	}
@@ -457,10 +593,10 @@
 	}
 
 	.lst-kix_list_1-0 > li:before {
-		content: "\0025cf   ";
+		content: "" counter(lst-ctn-kix_list_1-0, decimal) ". ";
 	}
 
-	ul.lst-kix_list_2-0 {
+	ul.lst-kix_list_2-1 {
 		list-style-type: none;
 	}
 
@@ -478,6 +614,10 @@
 
 	.lst-kix_list_1-2 > li:before {
 		content: "" counter(lst-ctn-kix_list_1-2, lower-roman) ". ";
+	}
+
+	ol.lst-kix_list_2-0.start {
+		counter-reset: lst-ctn-kix_list_2-0 0;
 	}
 
 	ol.lst-kix_list_4-6 {
@@ -500,6 +640,10 @@
 		counter-reset: lst-ctn-kix_list_3-5 0;
 	}
 
+	.lst-kix_list_1-0 > li {
+		counter-increment: lst-ctn-kix_list_1-0;
+	}
+
 	.lst-kix_list_4-8 > li {
 		counter-increment: lst-ctn-kix_list_4-8;
 	}
@@ -510,6 +654,10 @@
 
 	.lst-kix_list_1-7 > li:before {
 		content: "" counter(lst-ctn-kix_list_1-7, lower-latin) ". ";
+	}
+
+	ol.lst-kix_list_5-8.start {
+		counter-reset: lst-ctn-kix_list_5-8 0;
 	}
 
 	ol.lst-kix_list_2-7.start {
@@ -529,22 +677,22 @@
 	}
 
 	li.li-bullet-0:before {
-		margin-left: -18px;
+		margin-left: -15px;
 		white-space: nowrap;
 		display: inline-block;
-		min-width: 18px;
+		min-width: 15px;
+	}
+
+	.lst-kix_list_5-6 > li {
+		counter-increment: lst-ctn-kix_list_5-6;
 	}
 
 	.lst-kix_list_2-0 > li:before {
-		content: "\0025cf   ";
+		content: "" counter(lst-ctn-kix_list_2-0, decimal) ". ";
 	}
 
 	.lst-kix_list_2-1 > li:before {
-		content: "" counter(lst-ctn-kix_list_2-1, lower-latin) ". ";
-	}
-
-	ol.lst-kix_list_2-1.start {
-		counter-reset: lst-ctn-kix_list_2-1 0;
+		content: "\0025cf   ";
 	}
 
 	.lst-kix_list_4-5 > li {
@@ -567,6 +715,10 @@
 		counter-increment: lst-ctn-kix_list_4-2;
 	}
 
+	ol.lst-kix_list_5-2.start {
+		counter-reset: lst-ctn-kix_list_5-2 0;
+	}
+
 	ol {
 		margin: 0;
 		padding: 0;
@@ -576,7 +728,7 @@
 		padding: 0;
 	}
 
-	.c13 {
+	.c6 {
 		-webkit-text-decoration-skip: none;
 		color: #000000;
 		font-weight: 700;
@@ -586,26 +738,6 @@
 		font-size: 12px;
 		font-family: 'Roboto', sans-serif;
 		font-style: normal;
-	}
-
-	.c6 {
-		color: #000000;
-		font-weight: 400;
-		text-decoration: none;
-		vertical-align: baseline;
-		font-size: 3px;
-		font-family: 'Roboto', sans-serif;
-		font-style: normal;
-	}
-
-	.c11 {
-		margin-left: 36px;
-		padding-top: 0px;
-		padding-bottom: 0px;
-		line-height: 1.5;
-		orphans: 2;
-		widows: 2;
-		text-align: right;
 	}
 
 	.c3 {
@@ -618,37 +750,7 @@
 		font-style: normal;
 	}
 
-	.c10 {
-		color: #000000;
-		font-weight: 400;
-		text-decoration: none;
-		vertical-align: baseline;
-		font-size: 11px;
-		font-family: "Arial";
-		font-style: italic;
-	}
-
 	.c14 {
-		color: #000000;
-		font-weight: 400;
-		text-decoration: none;
-		vertical-align: baseline;
-		font-size: 11px;
-		font-family: 'Roboto', sans-serif;
-		font-style: normal;
-	}
-
-	.c2 {
-		color: #000000;
-		font-weight: 400;
-		text-decoration: none;
-		vertical-align: baseline;
-		font-size: 10px;
-		font-family: 'Roboto', sans-serif;
-		font-style: normal;
-	}
-
-	.c15 {
 		color: #000000;
 		font-weight: 400;
 		text-decoration: none;
@@ -658,16 +760,18 @@
 		font-style: normal;
 	}
 
-	.c7 {
+	.c5 {
 		padding-top: 0px;
 		padding-bottom: 0px;
 		line-height: 1.5;
 		orphans: 2;
 		widows: 2;
-		text-align: center;
+		text-align: left;
+		height: 11px;
 	}
 
-	.c19 {
+	.c25 {
+		color: #000000;
 		font-weight: 700;
 		text-decoration: none;
 		vertical-align: baseline;
@@ -676,12 +780,121 @@
 		font-style: normal;
 	}
 
-	.c22 {
+	.c23 {
+		color: #000000;
 		font-weight: 400;
 		text-decoration: none;
 		vertical-align: baseline;
 		font-size: 11px;
 		font-family: "Arial";
+		font-style: normal;
+	}
+
+	.c8 {
+		padding-top: 0px;
+		padding-bottom: 0px;
+		line-height: 1.5;
+		orphans: 2;
+		widows: 2;
+		text-align: justify;
+		height: 11px;
+	}
+
+	.c15 {
+		color: #000000;
+		font-weight: 400;
+		text-decoration: none;
+		vertical-align: baseline;
+		font-size: 4px;
+		font-family: 'Roboto', sans-serif;
+		font-style: normal;
+	}
+
+	.c11 {
+		color: #000000;
+		font-weight: 700;
+		text-decoration: none;
+		vertical-align: baseline;
+		font-size: 12px;
+		font-family: 'Roboto', sans-serif;
+		font-style: normal;
+	}
+
+	.c7 {
+		color: #000000;
+		font-weight: 400;
+		text-decoration: none;
+		vertical-align: baseline;
+		font-size: 11px;
+		font-family: "Arial";
+		font-style: italic;
+	}
+
+	.c0 {
+		color: #000000;
+		font-weight: 400;
+		text-decoration: none;
+		vertical-align: baseline;
+		font-size: 10px;
+		font-family: 'Roboto', sans-serif;
+		font-style: normal;
+	}
+
+	.c17 {
+		color: #000000;
+		font-weight: 400;
+		text-decoration: none;
+		vertical-align: baseline;
+		font-size: 3px;
+		font-family: 'Roboto', sans-serif;
+		font-style: normal;
+	}
+
+	.c10 {
+		padding-top: 0px;
+		padding-bottom: 0px;
+		line-height: 0.8333333333333334;
+		orphans: 2;
+		widows: 2;
+		text-align: justify;
+		height: 11px;
+	}
+
+	.c13 {
+		margin-left: 36px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		line-height: 1.5;
+		orphans: 2;
+		widows: 2;
+		text-align: right;
+	}
+
+	.c21 {
+		color: #000000;
+		font-weight: 400;
+		text-decoration: none;
+		vertical-align: baseline;
+		font-size: 19px;
+		font-family: "Bad Script";
+		font-style: normal;
+	}
+
+	.c22 {
+		padding-top: 0px;
+		padding-bottom: 0px;
+		line-height: 1.5;
+		orphans: 2;
+		widows: 2;
+		text-align: left;
+	}
+
+	.c27 {
+		font-weight: 400;
+		text-decoration: none;
+		vertical-align: baseline;
+		font-size: 9px;
+		font-family: 'Roboto', sans-serif;
 		font-style: normal;
 	}
 
@@ -691,16 +904,16 @@
 		line-height: 1.5;
 		orphans: 2;
 		widows: 2;
-		text-align: justify;
+		text-align: center;
 	}
 
-	.c23 {
-		font-weight: 400;
-		text-decoration: none;
-		vertical-align: baseline;
-		font-size: 19px;
-		font-family: "Bad Script";
-		font-style: normal;
+	.c2 {
+		padding-top: 0px;
+		padding-bottom: 0px;
+		line-height: 1.5;
+		orphans: 2;
+		widows: 2;
+		text-align: left;
 	}
 
 	.c1 {
@@ -713,31 +926,22 @@
 	}
 
 	.c18 {
-		font-weight: 700;
-		text-decoration: none;
-		vertical-align: baseline;
-		font-size: 12px;
-		font-family: 'Roboto', sans-serif;
-		font-style: normal;
-	}
-
-	.c0 {
 		padding-top: 0px;
 		padding-bottom: 0px;
 		line-height: 1.5;
 		orphans: 2;
 		widows: 2;
-		text-align: left;
+		text-align: justify;
 	}
 
-	.c16 {
+	.c24 {
 		font-size: 10px;
 		font-family: "Arial";
 		font-style: italic;
 		font-weight: 400;
 	}
 
-	.c5 {
+	.c4 {
 		background-color: #ffffff;
 		max-width: 568px;
 		padding: 52px 72px 18px 72px;
@@ -745,33 +949,33 @@
 		margin-left: auto;
 	}
 
-	.c21 {
+	.c20 {
 		text-decoration-skip-ink: none;
 		-webkit-text-decoration-skip: none;
 		text-decoration: underline;
 	}
 
-	.c12 {
-		padding: 0;
-		margin: 0;
-	}
-
-	.c8 {
+	.c16 {
 		margin-left: 36px;
 		padding-left: 0px;
 	}
 
-	.c20 {
+	.c19 {
 		color: inherit;
 		text-decoration: inherit;
 	}
 
-	.c4 {
-		height: 13px;
+	.c28 {
+		padding: 0;
+		margin: 0;
 	}
 
-	.c17 {
+	.c26 {
 		color: #000000;
+	}
+
+	.c12 {
+		height: 12px;
 	}
 
 	.title {
@@ -898,6 +1102,7 @@
 	}
 	.title-wrap {
 		opacity: 0.5;
+		padding-bottom: 5px;
 	}
 	.r-text {
 		display: inline-block;width: 49.5%;text-align: right;
@@ -906,58 +1111,62 @@
 		display: inline-block;width: 49.5%;text-align: left;
 	}</style>
 </head>
-<body class="c5 doc-content">
-<div class="title-wrap"><p class="c7 title"><span class="c15">Richard T Avis, Attorney</span></p>
-	<p class="c7 title"><span class="c15">&amp; Associates, LLC</span></p>
-	<p class="c0 c4 title"><span class="c17 c19"></span></p>
-	<p class="c0 title l-text"><span class="c10">Richard T Avis<br><br>P.O. Box 735633<br>Chicago, IL &nbsp;60673-5633</span></p>
-	<p class="c0 title r-text"><span class="c10">Barry Serota (1948-2009)<br><br>Phone: &nbsp; &nbsp;(847) 259-4700<br>Fax: &nbsp; &nbsp;(847) 259-9434</span></p>
+<body class="c4 doc-content">
+<div class="title-wrap">
+	<p class="c9 title"><span class="c14">Richard T Avis, Attorney</span></p>
+	<p class="c9 title"><span class="c14">&amp; Associates, LLC</span></p>
+	<p class="c2 c12 title"><span class="c25"></span></p>
+	<p class="c2 title l-text"><span class="c7">Richard T Avis<br><br>P.O. Box 735633 <br>Chicago, IL &nbsp;60673-5633</span></p>
+	<p class="c2 title r-text"><span class="c7">Barry Serota (1948-2009)<br><br>Phone: &nbsp; &nbsp;(847) 259-4700<br>Fax: &nbsp; &nbsp;(847) 259-9434</span></p>
 </div>
-<p class="c0 c4"><span class="c2"></span></p>
-<p class="c0"><span class="c3">{{Todays_Date_MMMM_DD_YYYY}}</span></p>
-<p class="c0 c4"><span class="c2"></span></p>
-<p class="c0"><span class="c3">{{Account_Address_Block}}</span></p>
-<p class="c0"><span class="c3">File No. {{Account_Number}}</span></p>
-<p class="c0"><span class="c3">Creditor: {{CliFile_Name}}</span></p>
-<p class="c0"><span class="c3">Creditor Reference No. {{Client_Ref_Num}}</span></p>
-<p class="c0"><span>Amount Due: </span><span class="c21">{{Actual_Total_Jmt_NonJmt_Owing}}</span></p>
-<p class="c0 c4"><span class="c2"></span></p>
-<p class="c0 c4"><span class="c2"></span></p>
-<p class="c1"><span class="c17">We previously notified you that Paychex, Inc. (&ldquo;Paychex&rdquo;) assigned your account </span><span>to our firm to resolve the unpaid {{Actual_Total_Jmt_NonJmt_Owing}} balance owed.</span><span
-	class="c3">&nbsp; Unfortunately, both our records and Paychex&rsquo;s records reflect that the above referenced balance remains unpaid.</span>
+<p class="c2 c12"><span class="c0"></span></p>
+<p class="c2"><span class="c3">{{Todays_Date_MMMM_DD_YYYY}}</span></p>
+<p class="c2 c12"><span class="c0"></span></p>
+<p class="c2"><span class="c3">{{Account_Address_Block}}</span></p>
+<p class="c2"><span class="c3">File No. {{Account_Number}}</span></p>
+<p class="c2"><span class="c3">Creditor: {{CliFile_Name}}</span></p>
+<p class="c2"><span class="c3">Creditor Reference No. {{Client_Ref_Num}}</span></p>
+<p class="c2"><span>Amount Due: </span><span class="c20">{{Actual_Total_Jmt_NonJmt_Owing}}</span></p>
+<p class="c12 c22"><span class="c26 c27"></span></p>
+<p class="c1"><span class="c3">This is to advise you that Paychex, Inc. (&ldquo;Paychex&rdquo;) assigned your account to our firm to resolve the unpaid {{Actual_Total_Jmt_NonJmt_Owing}} balance owed.</span>
 </p>
-<p class="c1 c4"><span class="c2"></span></p>
-<p class="c1"><span class="c17">We still have not heard from you and Paychex would like to better understand the reason for nonpayment. &nbsp;Do you dispute the balance? &nbsp;Are you experiencing financial hardship? &nbsp;Paychex realizes that many businesses are facing financial constraints right now. &nbsp;</span><span>Paychex intends to work with you to reach a resolution that is manageable for you. &nbsp;At this time, we simply need to communicate to move this matter in the direction favorable for both {{Account_Name_Firstname_First}} and Paychex.</span>
+<p class="c8"><span class="c0"></span></p>
+<p class="c1"><span class="c3">Please contact our office by {{Date_plus_7_days}} if your records indicate that you previously sent payment, you need additional information, or you dispute the amount due. &nbsp;Specifically, if you previously sent payment, please call me to provide the payment method, payment date, payment amount, and the check number or last four digits of the credit card number.</span>
 </p>
-<p class="c1 c4"><span class="c2"></span></p>
+<p class="c8"><span class="c0"></span></p>
+<p class="c1"><span>Please note that Paychex put your account on a &lsquo;Hold Status&rsquo; and Paychex will not remove the hold status </span><span
+	class="c26">until the balance is paid. &nbsp;While your Paychex account has a hold status, Paychex will not provide any additional and/or new reporting, data, or services, including Year-End Reports, employee W-2&rsquo;s, etc.</span>
+</p>
+<p class="c8"><span class="c0"></span></p>
 <p class="c1"><span class="c3">To satisfy the {{Actual_Total_Jmt_NonJmt_Owing}} balance, send payment in any of these methods:</span>
 </p>
-<ul class="c12 lst-kix_list_3-0 start">
-	<li class="c1 c8 li-bullet-0"><span class="c3">Mail &ndash; draft a check payable to Paychex with file number {{Account_Number}} on the memo line and mail the check to our office at the address below</span>
+<ol class="c28 lst-kix_list_3-0 start" start="1">
+	<li class="c1 c16 li-bullet-0"><span class="c3">Mail &ndash; draft a check payable to Paychex with file number {{Account_Number}} on the memo line and mail the check to our office at the address below</span>
 	</li>
-	<li class="c1 c8 li-bullet-0"><span
-		class="c3">Online* &ndash; pay with check or credit card with our processor: </span><span class="c13"><a class="c20" href="https://www.afm-usa.com/payment">https://www.afm-usa.com/payment</a></span>
+	<li class="c1 c16 li-bullet-0"><span
+		class="c3">Online* &ndash; pay with check or credit card with our processor: </span><span class="c6"><a class="c19"
+																																																						href="https://www.google.com/url?q=https://www.afm-usa.com/payment&amp;sa=D&amp;source=editors&amp;ust=1695649993433605&amp;usg=AOvVaw1UVIWBrhFHIRkqw8_f3cVy">https://www.afm-usa.com/payment</a></span>
 	</li>
-	<li class="c1 c8 li-bullet-0"><span class="c3">Phone* &ndash; pay with check or credit card by contacting our office at </span><span
-		class="c17 c18">(847) 259-4700</span><span class="c3">.</span></li>
-</ul>
-<p class="c11"><span class="c2">*A convenience fee will be assessed for both check or credit card payments made online or by phone.</span>
+	<li class="c1 c16 li-bullet-0"><span class="c3">Phone* &ndash; pay with check or credit card by contacting our office at </span><span
+		class="c11">(847) 259-4700</span><span class="c3">.</span></li>
+</ol>
+<p class="c13"><span class="c0">*A convenience fee will be assessed for both check or credit card payments made online or by phone.</span>
 </p>
-<p class="c1 c4"><span class="c2"></span></p>
-<p class="c1"><span class="c3">Your immediate communication or payment will alleviate the need for Paychex to consider additional options to protect their interests. &nbsp;Please contact our firm or submit payment at your earliest opportunity.</span>
+<p class="c8"><span class="c0"></span></p>
+<p class="c1"><span class="c3">Lastly, if you are experiencing financial hardship, please contact us to disclose your situation and Paychex will work with you to reach a resolution that is manageable for you. &nbsp;Please note that all communications and payments must now be directed to our office.</span>
 </p>
-<p class="c0 c4"><span class="c2"></span></p>
+<p class="c5"><span class="c0"></span></p>
 <p class="c1"><span class="c3">Thank you,</span></p>
-<p class="c1 c4"><span class="c14"></span></p>
-<p class="c1"><span class="c17 c23">{{COLLECTOR_NAME_SIGNATURE}}</span></p>
-<p class="c1 c4"><span class="c6"></span></p>
-<p class="c0"><span class="c18 c17">{{Collector_Pseudonym}}</span></p>
-<p class="c0"><span class="c3">{{X1005_Signature_Co_Line_1}} {{X1006_Signature_Co_Line_2}}</span>
+<p class="c10"><span class="c0"></span></p>
+<p class="c1"><span class="c21">{{COLLECTOR_NAME_SIGNATURE}}</span></p>
+<p class="c10"><span class="c17"></span></p>
+<p class="c2"><span class="c11">{{Collector_Pseudonym}}</span></p>
+<p class="c2"><span class="c3">{{X1005_Signature_Co_Line_1}} {{X1006_Signature_Co_Line_2}}</span>
 </p>
-<p class="c0"><span class="c3">P.O. Box 735633, Chicago, IL 60673-5633</span></p>
-<p class="c0"><span class="c3">P: (847) 259-4700 | F: (847) 259-9434</span></p>
-<p class="c0"><span class="c3">{{X1095_COLLECTOR_EMAIL_CUSTOM}} </span></p>
-<p class="c0 c4"><span class="c6"></span></p>
-<p class="c0"><span class="c2">This is an attempt to collect a debt by a debt collector. &nbsp;Any information obtained will be used for that purpose.</span>
+<p class="c2"><span class="c3">P.O. Box 735633, Chicago, IL 60673-5633</span></p>
+<p class="c2"><span class="c3">P: (847) 259-4700 | F: (847) 259-9434</span></p>
+<p class="c2"><span class="c3">{{X1095_COLLECTOR_EMAIL_CUSTOM}} </span></p>
+<p class="c5"><span class="c15"></span></p>
+<p class="c2"><span class="c0">This is an attempt to collect a debt by a debt collector. &nbsp;Any information obtained will be used for that purpose.</span>
 </p></body>
 </html>

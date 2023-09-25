@@ -651,7 +651,7 @@
 	.c4 {
 		background-color: #ffffff;
 		max-width: 568px;
-		padding: 72px 72px 18px 72px;
+		padding: 52px 72px 18px 72px;
 		margin-right: auto;
 		margin-left: auto;
 	}
@@ -809,6 +809,7 @@
 	}
 	.title-wrap {
 		opacity: 0.5;
+		padding-bottom: 5px;
 	}
 	.r-text {
 		display: inline-block;width: 49.5%;text-align: right;
@@ -826,31 +827,31 @@
 	<p class="c1 title r-text"><span class="c28">Barry Serota (1948-2009)<br><br>Phone: &nbsp; &nbsp;(847) 259-4700<br>Fax: &nbsp; &nbsp;(847) 259-9434</span></p>
 </div>
 <p class="c1 c6"><span class="c2"></span></p>
-<p class="c1"><span class="c2">&laquo;Todays_Date_MMMM_DD_YYYY&raquo;</span></p>
+<p class="c1"><span class="c2">{{Todays_Date_MMMM_DD_YYYY}}</span></p>
 <p class="c6 c25"><span class="c2"></span></p>
-<p class="c1"><span class="c2">&laquo;Account_Address_Block&raquo;</span></p>
-<p class="c1"><span class="c2">File # &laquo;Account_Number&raquo;</span></p>
-<p class="c1"><span class="c2">Creditor: &laquo;CliFile_Name&raquo;</span></p>
-<p class="c1"><span class="c2">Creditor Reference # &laquo;Client_Ref_Num&raquo;</span></p>
-<p class="c1"><span>Amount Due: </span><span class="c19">&laquo;Actual_Total_Jmt_NonJmt_Owing&raquo;</span></p>
+<p class="c1"><span class="c2">{{Account_Address_Block}}</span></p>
+<p class="c1"><span class="c2">File # {{Account_Number}}</span></p>
+<p class="c1"><span class="c2">Creditor: {{CliFile_Name}}</span></p>
+<p class="c1"><span class="c2">Creditor Reference # {{Client_Ref_Num}}</span></p>
+<p class="c1"><span>Amount Due: </span><span class="c19">{{Actual_Total_Jmt_NonJmt_Owing}}</span></p>
 <p class="c7 c6"><span class="c2"></span></p>
 <p class="c6 c8"><span class="c2"></span></p>
-<p class="c7"><span class="c2">&laquo;Field1_From_LtrRequest&raquo;,</span></p>
+<p class="c7"><span class="c2">{{Field1_From_LtrRequest}},</span></p>
 <p class="c7 c6"><span class="c2"></span></p>
-<p class="c7"><span class="c2">We previously attempted to communicate with you to resolve the &laquo;Actual_Total_Jmt_NonJmt_Owing&raquo; balance owed to &laquo;CliFile_Name&raquo;. &nbsp;Unfortunately, this matter has not progressed towards resolution and we must presume that &laquo;Account_Name&raquo; does not intend to perform their obligations.</span>
+<p class="c7"><span class="c2">We previously attempted to communicate with you to resolve the {{Actual_Total_Jmt_NonJmt_Owing}} balance owed to {{CliFile_Name}}. &nbsp;Unfortunately, this matter has not progressed towards resolution and we must presume that {{Account_Name}} does not intend to perform their obligations.</span>
 </p>
 <p class="c3"><span class="c2"></span></p>
-<p class="c7"><span class="c2">Your immediate payment and/or communication with our office will alleviate the need for &laquo;CliFile_Name&raquo; to consider additional options to protect their interests. &nbsp;&laquo;CliFile_Name&raquo; would like us to work with you to resolve this matter without taking any further action, however time is of the essence.</span>
+<p class="c7"><span class="c2">Your immediate payment and/or communication with our office will alleviate the need for {{CliFile_Name}} to consider additional options to protect their interests. &nbsp;{{CliFile_Name}} would like us to work with you to resolve this matter without taking any further action, however time is of the essence.</span>
 </p>
 <p class="c7 c6"><span class="c2"></span></p>
 <p class="c7"><span class="c2">Payment can be submitted in any of the following methods:</span></p>
 <ul class="c20 lst-kix_list_3-0 start">
-	<li class="c7 c13 li-bullet-0"><span class="c2">Mail &ndash; draft a check payable to &laquo;CliFile_Name&raquo; with file number &laquo;Account_Number&raquo; on the memo line and mail the check to our office at the address below</span>
+	<li class="c7 c13 li-bullet-0"><span class="c2">Mail &ndash; draft a check payable to {{CliFile_Name}} with file number {{Account_Number}} on the memo line and mail the check to our office at the address below</span>
 	</li>
 	<li class="c7 c13 li-bullet-0"><span
 		class="c2">Online* &ndash; pay with check or credit card with our processor: </span><span class="c19 c23"><a
 		class="c26"
-		href="https://www.google.com/url?q=https://www.afm-usa.com/payment&amp;sa=D&amp;source=editors&amp;ust=1695632820914507&amp;usg=AOvVaw1VV2igFmmsAfLBbbPPQuiS">https://www.afm-usa.com/payment</a></span>
+		href="https://www.afm-usa.com/payment">https://www.afm-usa.com/payment</a></span>
 	</li>
 	<li class="c7 c13 li-bullet-0"><span class="c2">Phone* &ndash; pay with check or credit card by contacting our office at </span><span
 		class="c11">(847) 259-4700</span><span class="c2">.</span></li>
@@ -863,14 +864,14 @@
 <p class="c3"><span class="c2"></span></p>
 <p class="c7"><span class="c2">Thank you,</span></p>
 <p class="c7 c6"><span class="c9"></span></p>
-<p class="c7"><span class="c27">&laquo;COLLECTOR_NAME_SIGNATURE&raquo;</span></p>
+<p class="c7"><span class="c27">{{COLLECTOR_NAME_SIGNATURE}}</span></p>
 <p class="c6 c7"><span class="c17"></span></p>
-<p class="c1"><span class="c11">&laquo;Collector_Pseudonym&raquo;</span></p>
-<p class="c1"><span class="c2">&laquo;X1005_Signature_Co_Line_1&raquo; &laquo;X1006_Signature_Co_Line_2&raquo;</span>
+<p class="c1"><span class="c11">{{Collector_Pseudonym}}</span></p>
+<p class="c1"><span class="c2">{{X1005_Signature_Co_Line_1}} {{X1006_Signature_Co_Line_2}}</span>
 </p>
 <p class="c1"><span class="c2">P.O. Box 735633, Chicago, IL 60673-5633</span></p>
 <p class="c1"><span class="c2">P: (847) 259-4700 | F: (847) 259-9434</span></p>
-<p class="c1"><span class="c2">&laquo;X1095_COLLECTOR_EMAIL_CUSTOM&raquo; </span></p>
+<p class="c1"><span class="c2">{{X1095_COLLECTOR_EMAIL_CUSTOM}} </span></p>
 <p class="c1 c6"><span class="c16"></span></p>
 <p class="c1"><span class="c24">This is an attempt to collect a debt by a debt collector. &nbsp;Any information obtained will be used for that purpose.</span>
 </p>
