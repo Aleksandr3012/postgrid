@@ -305,7 +305,7 @@
 		padding: 0;
 	}
 
-	.c0 {
+	.c1 {
 		color: #000000;
 		font-weight: 400;
 		text-decoration: none;
@@ -327,14 +327,14 @@
 
 	.c2 {
 		padding-top: 0px;
-		padding-bottom: 0px;
-		line-height: 1.0;
+		padding-bottom: 8px;
+		line-height: 1.4;
 		orphans: 2;
 		widows: 2;
-		text-align: left;
+		text-align: right;
 	}
 
-	.c1 {
+	.c0 {
 		padding-top: 0px;
 		padding-bottom: 0px;
 		line-height: 1.4;
@@ -345,14 +345,14 @@
 
 	.c4 {
 		padding-top: 0px;
-		padding-bottom: 8px;
+		padding-bottom: 0px;
 		line-height: 1.4;
 		orphans: 2;
 		widows: 2;
-		text-align: right;
+		text-align: left;
 	}
 
-	.c5 {
+	.c3 {
 		background-color: #ffffff;
 		max-width: 565px;
 		margin-left: auto;
@@ -360,8 +360,8 @@
 		padding: 50px 72px 72px 72px;
 	}
 
-	.c3 {
-		height: 12px;
+	.c5 {
+		height: 13px;
 	}
 
 	.title {
@@ -488,62 +488,55 @@
 		widows: 2;
 		text-align: left;
 	}
-	body {
+	body{
 		padding: 0;
 		margin: 0;
 	}</style>
 </head>
 <body >
-<div><p class="c6"><span
-	style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 256.33px; height: 127.67px;">
-		<img alt="logo" src="https://res.cloudinary.com/dlfckeioh/image/upload/v1694784698/image2_poicxa.png"
-				 width="256.33px" height="127.68px">
-	</span></p></div>
-<div class="c5 doc-content">
-	<p class="c4"><span class="c0">{{Todays_Date_MMMM_DD_YYYY}}</span></p>
-	<p class="c1"><span class="c0">{{Client_Contact}}</span></p>
-	<p class="c1"><span class="c0">{{CliFile_Name}}</span></p>
-	<p class="c1"><span class="c0">{{Client_Address}}</span></p>
-	<p class="c1"><span class="c0">{{Client_City}}, {{Client_State}} {{Client_Zip}}</span></p>
-	<p class="c1 c3"><span class="c0"></span></p>
-	<p class="c1"><span class="c0">{{CliFile_Name}} v. {{Account_Name_Firstname_First}}</span></p>
-	<p class="c1"><span class="c0">Account No. {{Client_Ref_Number_Long}} - AFM File No. {{Account_Number}}</span>
-	</p>
-	<p class="c1"><span class="c0">Placement Amount {{Asgnd_Amt_PRINCIPAL_Field_Owing}} / Close-Out Amount {{Asgnd_Amt_PRINCIPAL_Field_Bal}}</span>
-	</p>
-	<p class="c1"><span
-		class="c0">Reason for Closure &ndash; {{Account_Name_Firstname_First}} Filed Bankruptcy</span></p>
-	<p class="c1 c3"><span class="c0"></span></p>
-	<p class="c1"><span class="c0">Dear {{Client_Contact}},</span></p>
-	<p class="c1 c3"><span class="c0"></span></p>
-	<p class="c1"><span class="c0">This is to update you regarding the above referenced file.</span></p>
-	<p class="c1 c3"><span class="c0"></span></p>
-	<p class="c1"><span class="c0">We confirmed that the debtor filed bankruptcy. &nbsp;The bankruptcy case number is {{BK_CASE_NO}}. &nbsp;As a result of this filing, we are stayed from conducting further collection activities and are forced to close our file as uncollectible.</span>
-	</p>
-	<p class="c1 c3"><span class="c0"></span></p>
-	<p class="c1"><span class="c0">Please note, you should receive notification of the bankruptcy filing directly from the Bankruptcy Court. &nbsp;That notice will provide instructions for filing a proof of claim, in case there is a distribution to creditors. &nbsp;Also, please note, any distribution from the bankruptcy estate will go directly to {{CliFile_Name}}, without any contingency fee obligation to us.</span>
-	</p>
-	<p class="c1 c3"><span class="c0"></span></p>
-	<p class="c1"><span class="c0">If you have not done so already, please take this opportunity to write off the balance as a bad debt for IRS tax purposes. &nbsp;We appreciate the opportunity to be of service to {{CliFile_Name}} and look forward to assisting you on future matters.</span>
-	</p>
-	<p class="c1 c3"><span class="c0"></span></p>
-	<p class="c1"><span class="c0">Very truly yours,</span></p>
-	<p class="c1 c3"><span class="c0"></span></p>
-	<p class="c1"><span class="c6">{{COLLECTOR_NAME_SIGNATURE}}</span></p>
-	<p class="c1 c3"><span class="c0"></span></p>
-	<p class="c1"><span class="c0">{{Collector_Pseudonym}}</span></p>
-	<p class="c1"><span class="c0">American Financial Management, Inc.</span></p>
+<div>
+	<span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 256.33px; height: 127.67px;">
+		<img alt="logo" src="https://res.cloudinary.com/dlfckeioh/image/upload/v1694784698/image2_poicxa.png" width="256.33px" height="127.68px">
+	</span>
+</div>
+<div class="c3 doc-content">
+	<p class="c2"><span class="c1">{{Todays_Date_MMMM_DD_YYYY}}</span></p>
+	<p class="c0"><span class="c1">{{Client_Contact}}</span></p>
+	<p class="c0"><span class="c1">{{CliFile_Name}}</span></p>
+	<p class="c0"><span class="c1">{{Client_Address}}</span></p>
+	<p class="c0"><span class="c1">{{Client_City}}, {{Client_State}} {{Client_Zip}}</span></p>
+	<p class="c0 c5"><span class="c1"></span></p>
+	<p class="c0"><span class="c1">{{CliFile_Name}} v. {{Account_Name_Firstname_First}}</span></p>
+	<p class="c0"><span class="c1">Account No. {{Client_Ref_Number_Long}} - AFM File No. {{Account_Number}}</span></p>
+	<p class="c0"><span class="c1">Placement Amount {{Asgnd_Amt_PRINCIPAL_Field_Owing}} / Close-Out Amount {{Asgnd_Amt_PRINCIPAL_Field_Bal}}</span></p>
+	<p class="c0"><span class="c1">Reason for Closure &ndash; Out of Business</span></p>
+	<p class="c0 c5"><span class="c1"></span></p>
+	<p class="c0"><span class="c1">Dear {{Client_Contact}},</span></p>
+	<p class="c0 c5"><span class="c1"></span></p>
+	<p class="c0"><span class="c1">This is to update you regarding the above referenced file.</span></p>
+	<p class="c0 c5"><span class="c1"></span></p>
+	<p class="c0"><span class="c1">Through our collection efforts, we learned that the debtor is out of business. &nbsp;Of course, we then directly contacted the principal of the debtor business to secure payment and/or learn how the debtor disbursed their remaining assets. &nbsp;Unfortunately, these additional efforts did not generate payment.</span></p>
+	<p class="c0 c5"><span class="c1"></span></p>
+	<p class="c0"><span class="c1">Ordinarily, at this time, we would consider the merits of filing a lawsuit. &nbsp;However, in this case, filing suit is not cost justifiable due to the operating status of the debtor entity. &nbsp;Thus, we exhausted our collection efforts are forced to close our file as uncollectible.</span></p>
+	<p class="c0 c5"><span class="c1"></span></p>
+	<p class="c0"><span class="c1">If you have not done so already, please take this opportunity to write off the balance as a bad debt for IRS tax purposes. &nbsp;We appreciate the opportunity to be of service to {{CliFile_Name}} and look forward to assisting you on future matters.</span></p>
+	<p class="c0 c5"><span class="c1"></span></p>
+	<p class="c0"><span class="c1">Very truly yours,</span></p>
+	<p class="c0 c5"><span class="c1"></span></p>
+	<p class="c0"><span class="c6">{{COLLECTOR_NAME_SIGNATURE}}</span></p>
+	<p class="c0 c5"><span class="c1"></span></p>
+	<p class="c0"><span class="c1">{{Collector_Pseudonym}}</span></p>
+	<p class="c0"><span class="c1">American Financial Management, Inc.</span></p>
 	<div class="image-wrap" style="margin-top: 60px;opacity: 0.7;">
-		<p class="c6" style="vertical-align: middle;margin: 0; color: #000000; font-size: 12px;  font-family: 'Roboto', sans-serif; padding-top: 0px; padding-bottom: 0px; line-height: 1.5; orphans: 2; widows: 2; text-align: left;display:inline-block;width: 50%;border-left: solid 2px #007CC3; padding-left: 20px;opacity: 0.7;text-decoration: none;font-weight: normal;height: auto">
+		<p  style="vertical-align: middle;margin: 0; color: #000000; font-size: 12px;  font-family: 'Roboto', sans-serif; padding-top: 0px; padding-bottom: 0px; line-height: 1.5; orphans: 2; widows: 2; text-align: left;display:inline-block;width: 50%;border-left: solid 2px #007CC3; padding-left: 20px;opacity: 0.7;text-decoration: none;font-weight: normal;height: auto">
 			P.O. BOX 735633, Chicago, IL 60673-5633<br>
 			(800) 426-5532  |  (847) 259-7000<br>
 			<a style="color: #000000;font-family: 'Roboto', sans-serif; text-decoration: none" href="www.afm-usa.com" target="_blank">www.afm-usa.com</a>
 		</p>
-		<p class="c6" style="vertical-align: middle;margin: 0; color: #000000; font-size: 12px;  font-family: 'Roboto', sans-serif; padding-top: 0px; padding-bottom: 0px; line-height: 1.5; orphans: 2; widows: 2; text-align: left;display:inline-block;max-width: 40%;margin-left: auto; height: auto">
+		<p  style="vertical-align: middle;margin: 0; color: #000000; font-size: 12px;  font-family: 'Roboto', sans-serif; padding-top: 0px; padding-bottom: 0px; line-height: 1.5; orphans: 2; widows: 2; text-align: left;display:inline-block;max-width: 40%;margin-left: auto; height: auto">
 			<img alt="" src="https://res.cloudinary.com/dlfckeioh/image/upload/v1695142257/image3_x9jpyd_szccad.jpg" width="264.00px" height="62.81px">
 		</p>
 	</div>
 </div>
-
 </body>
 </html>
