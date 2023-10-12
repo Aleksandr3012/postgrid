@@ -305,17 +305,7 @@
 		padding: 0;
 	}
 
-	.c1 {
-		color: #000000;
-		font-weight: 400;
-		text-decoration: none;
-		vertical-align: baseline;
-		font-size: 12px;
-		font-family: 'Roboto', sans-serif;
-		font-style: normal;
-	}
-
-	.c3 {
+	.c4 {
 		color: #000000;
 		font-weight: 400;
 		text-decoration: none;
@@ -325,22 +315,14 @@
 		font-style: normal;
 	}
 
-	.c4 {
-		padding-top: 0px;
-		padding-bottom: 8px;
-		line-height: 1.4;
-		orphans: 2;
-		widows: 2;
-		text-align: right;
-	}
-
-	.c5 {
-		padding-top: 0px;
-		padding-bottom: 0px;
-		line-height: 1.0;
-		orphans: 2;
-		widows: 2;
-		text-align: left;
+	.c1 {
+		color: #000000;
+		font-weight: 400;
+		text-decoration: none;
+		vertical-align: baseline;
+		font-size: 12px;
+		font-family: 'Roboto', sans-serif;
+		font-style: normal;
 	}
 
 	.c0 {
@@ -352,16 +334,34 @@
 		text-align: left;
 	}
 
+	.c5 {
+		padding-top: 0px;
+		padding-bottom: 8px;
+		line-height: 1.4;
+		orphans: 2;
+		widows: 2;
+		text-align: right;
+	}
+
+	.c2 {
+		padding-top: 0px;
+		padding-bottom: 0px;
+		line-height: 1.0;
+		orphans: 2;
+		widows: 2;
+		text-align: left;
+	}
+
 	.c6 {
 		background-color: #ffffff;
 		max-width: 565px;
 		margin-left: auto;
 		margin-right: auto;
-		padding: 70px 72px 72px 72px;
+		padding: 50px 72px 72px 72px;
 	}
 
-	.c2 {
-		height: 13px;
+	.c3 {
+		height: 11px;
 	}
 
 	.title {
@@ -394,14 +394,14 @@
 
 	li {
 		color: #000000;
-		font-size: 12px;
+		font-size: 11px;
 		font-family: 'Roboto', sans-serif;
 	}
 
 	p {
 		margin: 0;
 		color: #000000;
-		font-size: 12px;
+		font-size: 11px;
 		font-family: 'Roboto', sans-serif;
 	}
 
@@ -409,7 +409,7 @@
 		padding-top: 24px;
 		color: #000000;
 		font-weight: 700;
-		font-size: 25px;
+		font-size: 24px;
 		padding-bottom: 6px;
 		font-family: 'Roboto', sans-serif;
 		line-height: 1.4;
@@ -423,7 +423,7 @@
 		padding-top: 18px;
 		color: #000000;
 		font-weight: 700;
-		font-size: 19px;
+		font-size: 18px;
 		padding-bottom: 4px;
 		font-family: 'Roboto', sans-serif;
 		line-height: 1.4;
@@ -437,7 +437,7 @@
 		padding-top: 14px;
 		color: #000000;
 		font-weight: 700;
-		font-size: 15px;
+		font-size: 14px;
 		padding-bottom: 4px;
 		font-family: 'Roboto', sans-serif;
 		line-height: 1.4;
@@ -451,7 +451,7 @@
 		padding-top: 12px;
 		color: #000000;
 		font-weight: 700;
-		font-size: 13px;
+		font-size: 12px;
 		padding-bottom: 2px;
 		font-family: 'Roboto', sans-serif;
 		line-height: 1.4;
@@ -465,7 +465,7 @@
 		padding-top: 11px;
 		color: #000000;
 		font-weight: 700;
-		font-size: 12px;
+		font-size: 11px;
 		padding-bottom: 2px;
 		font-family: 'Roboto', sans-serif;
 		line-height: 1.4;
@@ -479,7 +479,7 @@
 		padding-top: 10px;
 		color: #000000;
 		font-weight: 700;
-		font-size: 11px;
+		font-size: 10px;
 		padding-bottom: 2px;
 		font-family: 'Roboto', sans-serif;
 		line-height: 1.4;
@@ -488,7 +488,7 @@
 		widows: 2;
 		text-align: left;
 	}
-	body{
+	body {
 		padding: 0;
 		margin: 0;
 	}</style>
@@ -500,32 +500,34 @@
 	</span>
 </div>
 <div class="c6 doc-content">
-	<p class="c4"><span class="c1">{{Todays_Date_MMMM_DD_YYYY}}</span></p>
+	<p class="c5"><span class="c1">{{Todays_Date_MMMM_DD_YYYY}}</span></p>
 	<p class="c0"><span class="c1">{{Client_Contact}}</span></p>
 	<p class="c0"><span class="c1">{{CliFile_Name}}</span></p>
 	<p class="c0"><span class="c1">{{Client_Address}}</span></p>
 	<p class="c0"><span class="c1">{{Client_City}}, {{Client_State}} {{Client_Zip}}</span></p>
-	<p class="c0 c2"><span class="c1"></span></p>
+	<p class="c0 c3"><span class="c1"></span></p>
 	<p class="c0"><span class="c1">{{CliFile_Name}} v. {{Account_Name_Firstname_First}}</span></p>
 	<p class="c0"><span class="c1">Account No. {{Client_Ref_Number_Long}} - AFM File No. {{Account_Number}}</span></p>
 	<p class="c0"><span class="c1">Placement Amount {{Asgnd_Amt_PRINCIPAL_Field_Owing}} / Close-Out Amount {{Asgnd_Amt_PRINCIPAL_Field_Bal}}</span></p>
-	<p class="c0"><span class="c1">Reason for Closure &ndash; No Response or Payment, resulting in a Small Balance Adjustment (under $150.00)</span></p>
-	<p class="c0 c2"><span class="c1"></span></p>
+	<p class="c0"><span class="c1">Reason for Closure &ndash; {{Account_Name_Firstname_First}} Filed Bankruptcy, AFM to file Proof of Claim &amp; {{CliFile_Name}} to monitor Bankruptcy Proceedings</span></p>
+	<p class="c0 c3"><span class="c1"></span></p>
 	<p class="c0"><span class="c1">Dear {{Client_Contact}},</span></p>
-	<p class="c0 c2"><span class="c1"></span></p>
+	<p class="c0 c3"><span class="c1"></span></p>
 	<p class="c0"><span class="c1">This is to update you regarding the above referenced file.</span></p>
-	<p class="c0 c2"><span class="c1"></span></p>
-	<p class="c0"><span class="c1">Despite our persistent and aggressive efforts to collect the monies owed to {{CliFile_Name}}, the debtor did not satisfy, or commit to satisfying, the remaining small balance due. &nbsp;Further, it is apparent the debtor does not intend to make any voluntary payment in the future. &nbsp;Ordinarily, at this time, we would consider the merits of filing a lawsuit. &nbsp;However, in this case, filing suit is not cost justifiable due to the size of the remaining balance due {{CliFile_Name}}. &nbsp;Thus, we are unfortunately forced to close our file as uncollectible.</span></p>
-	<p class="c0 c2"><span class="c1"></span></p>
-	<p class="c0"><span class="c1">If you have not done so already, please take this opportunity to write off the balance as a bad debt for IRS tax purposes. &nbsp;We appreciate the opportunity to be of service to {{CliFile_Name}} and look forward to assisting you on future matters.</span></p>
-	<p class="c0 c2"><span class="c1"></span></p>
+	<p class="c0 c3"><span class="c1"></span></p>
+	<p class="c0"><span class="c1">We confirmed that the debtor filed bankruptcy. &nbsp;The bankruptcy case number is {{BK_CASE_NO}}. &nbsp;As a result of this filing, we are stayed from conducting further collection activities.</span></p>
+	<p class="c0 c3"><span class="c1"></span></p>
+	<p class="c0"><span class="c1">Please note, we will file a proof of claim on your behalf and, when doing so, we will provide your contact information to the Bankruptcy Court. &nbsp;Therefore, any notices from the Bankruptcy Court will be sent directly to you. &nbsp;Further, any distribution from the bankruptcy estate will go directly to you, without any contingency fee obligation to us.</span></p>
+	<p class="c0 c3"><span class="c1"></span></p>
+	<p class="c0"><span class="c1">Accordingly, since we are stayed from conducting further collection activities and since all notices and payments will be sent directly to {{CliFile_Name}}, we will now close our file as uncollectible. &nbsp;If you have not done so already, please take this opportunity to write off the balance as a bad debt for IRS tax purposes. &nbsp;We appreciate the opportunity to be of service to {{CliFile_Name}} and look forward to assisting you on future matters.</span></p>
+	<p class="c0 c3"><span class="c1"></span></p>
 	<p class="c0"><span class="c1">Very truly yours,</span></p>
-	<p class="c0 c2"><span class="c1"></span></p>
-	<p class="c0"><span class="c3">{{COLLECTOR_NAME_SIGNATURE}}</span></p>
-	<p class="c0 c2"><span class="c1"></span></p>
+	<p class="c0 c3"><span class="c1"></span></p>
+	<p class="c0"><span class="c4">{{COLLECTOR_NAME_SIGNATURE}}</span></p>
+	<p class="c0 c3"><span class="c1"></span></p>
 	<p class="c0"><span class="c1">{{Collector_Pseudonym}}</span></p>
 	<p class="c0"><span class="c1">American Financial Management, Inc.</span></p>
-	<div class="image-wrap" style="margin-top: 60px;opacity: 0.7;">
+	<div class="image-wrap" style="margin-top: 90px;opacity: 0.7;">
 		<p  style="vertical-align: middle;margin: 0; color: #000000; font-size: 12px;  font-family: 'Roboto', sans-serif; padding-top: 0px; padding-bottom: 0px; line-height: 1.5; orphans: 2; widows: 2; text-align: left;display:inline-block;width: 50%;border-left: solid 2px #007CC3; padding-left: 20px;opacity: 0.7;text-decoration: none;font-weight: normal;height: auto">
 			P.O. BOX 735633, Chicago, IL 60673-5633<br>
 			(800) 426-5532  |  (847) 259-7000<br>

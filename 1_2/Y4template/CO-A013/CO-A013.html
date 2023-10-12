@@ -315,7 +315,7 @@
 		font-style: normal;
 	}
 
-	.c3 {
+	.c6 {
 		color: #000000;
 		font-weight: 400;
 		text-decoration: none;
@@ -325,7 +325,7 @@
 		font-style: normal;
 	}
 
-	.c4 {
+	.c5 {
 		padding-top: 0px;
 		padding-bottom: 8px;
 		line-height: 1.4;
@@ -334,7 +334,7 @@
 		text-align: right;
 	}
 
-	.c5 {
+	.c4 {
 		padding-top: 0px;
 		padding-bottom: 0px;
 		line-height: 1.0;
@@ -352,12 +352,12 @@
 		text-align: left;
 	}
 
-	.c6 {
+	.c3 {
 		background-color: #ffffff;
 		max-width: 565px;
 		margin-left: auto;
 		margin-right: auto;
-		padding: 70px 72px 72px 72px;
+		padding: 50px 72px 72px 72px;
 	}
 
 	.c2 {
@@ -493,14 +493,14 @@
 		margin: 0;
 	}</style>
 </head>
-<body >
+<body>
 <div>
 	<span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 256.33px; height: 127.67px;">
 		<img alt="logo" src="https://res.cloudinary.com/dlfckeioh/image/upload/v1694784698/image2_poicxa.png" width="256.33px" height="127.68px">
 	</span>
 </div>
-<div class="c6 doc-content">
-	<p class="c4"><span class="c1">{{Todays_Date_MMMM_DD_YYYY}}</span></p>
+<div class="c3 doc-content">
+	<p class="c5"><span class="c1">{{Todays_Date_MMMM_DD_YYYY}}</span></p>
 	<p class="c0"><span class="c1">{{Client_Contact}}</span></p>
 	<p class="c0"><span class="c1">{{CliFile_Name}}</span></p>
 	<p class="c0"><span class="c1">{{Client_Address}}</span></p>
@@ -509,23 +509,25 @@
 	<p class="c0"><span class="c1">{{CliFile_Name}} v. {{Account_Name_Firstname_First}}</span></p>
 	<p class="c0"><span class="c1">Account No. {{Client_Ref_Number_Long}} - AFM File No. {{Account_Number}}</span></p>
 	<p class="c0"><span class="c1">Placement Amount {{Asgnd_Amt_PRINCIPAL_Field_Owing}} / Close-Out Amount {{Asgnd_Amt_PRINCIPAL_Field_Bal}}</span></p>
-	<p class="c0"><span class="c1">Reason for Closure &ndash; No Response or Payment, resulting in a Small Balance Adjustment (under $150.00)</span></p>
+	<p class="c0"><span class="c1">Reason for Update &ndash; {{Account_Name_Firstname_First}} Filed Bankruptcy, AFM to file Proof of Claim</span></p>
 	<p class="c0 c2"><span class="c1"></span></p>
 	<p class="c0"><span class="c1">Dear {{Client_Contact}},</span></p>
 	<p class="c0 c2"><span class="c1"></span></p>
 	<p class="c0"><span class="c1">This is to update you regarding the above referenced file.</span></p>
 	<p class="c0 c2"><span class="c1"></span></p>
-	<p class="c0"><span class="c1">Despite our persistent and aggressive efforts to collect the monies owed to {{CliFile_Name}}, the debtor did not satisfy, or commit to satisfying, the remaining small balance due. &nbsp;Further, it is apparent the debtor does not intend to make any voluntary payment in the future. &nbsp;Ordinarily, at this time, we would consider the merits of filing a lawsuit. &nbsp;However, in this case, filing suit is not cost justifiable due to the size of the remaining balance due {{CliFile_Name}}. &nbsp;Thus, we are unfortunately forced to close our file as uncollectible.</span></p>
+	<p class="c0"><span class="c1">We confirmed that the debtor filed bankruptcy. &nbsp;The bankruptcy case number is {{BK_CASE_NO}}. &nbsp;As a result of this filing, we are stayed from conducting further collection activities.</span></p>
 	<p class="c0 c2"><span class="c1"></span></p>
-	<p class="c0"><span class="c1">If you have not done so already, please take this opportunity to write off the balance as a bad debt for IRS tax purposes. &nbsp;We appreciate the opportunity to be of service to {{CliFile_Name}} and look forward to assisting you on future matters.</span></p>
+	<p class="c0"><span class="c1">Please note, we will file a proof of claim on your behalf and will monitor the bankruptcy case for you. &nbsp;When we receive any notices from the Bankruptcy Court, we will further update you on the proceedings. &nbsp;In addition, we will send you another formal letter at the conclusion of the bankruptcy proceedings.</span></p>
+	<p class="c0 c2"><span class="c1"></span></p>
+	<p class="c0"><span class="c1">Please let us know if you have any questions. &nbsp;We appreciate the opportunity to be of service to {{CliFile_Name}}.</span></p>
 	<p class="c0 c2"><span class="c1"></span></p>
 	<p class="c0"><span class="c1">Very truly yours,</span></p>
 	<p class="c0 c2"><span class="c1"></span></p>
-	<p class="c0"><span class="c3">{{COLLECTOR_NAME_SIGNATURE}}</span></p>
+	<p class="c0"><span class="c6">{{COLLECTOR_NAME_SIGNATURE}}</span></p>
 	<p class="c0 c2"><span class="c1"></span></p>
 	<p class="c0"><span class="c1">{{Collector_Pseudonym}}</span></p>
 	<p class="c0"><span class="c1">American Financial Management, Inc.</span></p>
-	<div class="image-wrap" style="margin-top: 60px;opacity: 0.7;">
+	<div class="image-wrap" style="margin-top: 90px;opacity: 0.7;">
 		<p  style="vertical-align: middle;margin: 0; color: #000000; font-size: 12px;  font-family: 'Roboto', sans-serif; padding-top: 0px; padding-bottom: 0px; line-height: 1.5; orphans: 2; widows: 2; text-align: left;display:inline-block;width: 50%;border-left: solid 2px #007CC3; padding-left: 20px;opacity: 0.7;text-decoration: none;font-weight: normal;height: auto">
 			P.O. BOX 735633, Chicago, IL 60673-5633<br>
 			(800) 426-5532  |  (847) 259-7000<br>

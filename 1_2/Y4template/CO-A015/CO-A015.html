@@ -315,7 +315,7 @@
 		font-style: normal;
 	}
 
-	.c3 {
+	.c6 {
 		color: #000000;
 		font-weight: 400;
 		text-decoration: none;
@@ -325,19 +325,10 @@
 		font-style: normal;
 	}
 
-	.c4 {
-		padding-top: 0px;
-		padding-bottom: 8px;
-		line-height: 1.4;
-		orphans: 2;
-		widows: 2;
-		text-align: right;
-	}
-
 	.c5 {
 		padding-top: 0px;
 		padding-bottom: 0px;
-		line-height: 1.0;
+		line-height: 1.4;
 		orphans: 2;
 		widows: 2;
 		text-align: left;
@@ -352,15 +343,24 @@
 		text-align: left;
 	}
 
-	.c6 {
+	.c2 {
+		padding-top: 0px;
+		padding-bottom: 8px;
+		line-height: 1.4;
+		orphans: 2;
+		widows: 2;
+		text-align: right;
+	}
+
+	.c4 {
 		background-color: #ffffff;
 		max-width: 565px;
 		margin-left: auto;
 		margin-right: auto;
-		padding: 70px 72px 72px 72px;
+		padding: 50px 72px 72px 72px;
 	}
 
-	.c2 {
+	.c3 {
 		height: 13px;
 	}
 
@@ -493,39 +493,39 @@
 		margin: 0;
 	}</style>
 </head>
-<body >
+<body>
 <div>
 	<span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 256.33px; height: 127.67px;">
 		<img alt="logo" src="https://res.cloudinary.com/dlfckeioh/image/upload/v1694784698/image2_poicxa.png" width="256.33px" height="127.68px">
 	</span>
 </div>
-<div class="c6 doc-content">
-	<p class="c4"><span class="c1">{{Todays_Date_MMMM_DD_YYYY}}</span></p>
+<div class="c4 doc-content">
+	<p class="c2"><span class="c1">{{Todays_Date_MMMM_DD_YYYY}}</span></p>
 	<p class="c0"><span class="c1">{{Client_Contact}}</span></p>
 	<p class="c0"><span class="c1">{{CliFile_Name}}</span></p>
 	<p class="c0"><span class="c1">{{Client_Address}}</span></p>
 	<p class="c0"><span class="c1">{{Client_City}}, {{Client_State}} {{Client_Zip}}</span></p>
-	<p class="c0 c2"><span class="c1"></span></p>
+	<p class="c0 c3"><span class="c1"></span></p>
 	<p class="c0"><span class="c1">{{CliFile_Name}} v. {{Account_Name_Firstname_First}}</span></p>
 	<p class="c0"><span class="c1">Account No. {{Client_Ref_Number_Long}} - AFM File No. {{Account_Number}}</span></p>
 	<p class="c0"><span class="c1">Placement Amount {{Asgnd_Amt_PRINCIPAL_Field_Owing}} / Close-Out Amount {{Asgnd_Amt_PRINCIPAL_Field_Bal}}</span></p>
-	<p class="c0"><span class="c1">Reason for Closure &ndash; No Response or Payment, resulting in a Small Balance Adjustment (under $150.00)</span></p>
-	<p class="c0 c2"><span class="c1"></span></p>
+	<p class="c0"><span class="c1">Reason for Closure &ndash; {{Account_Name_Firstname_First}} Bankruptcy Case Number {{BK_CASE_NO}} Dismissed</span></p>
+	<p class="c0 c3"><span class="c1"></span></p>
 	<p class="c0"><span class="c1">Dear {{Client_Contact}},</span></p>
-	<p class="c0 c2"><span class="c1"></span></p>
+	<p class="c0 c3"><span class="c1"></span></p>
 	<p class="c0"><span class="c1">This is to update you regarding the above referenced file.</span></p>
-	<p class="c0 c2"><span class="c1"></span></p>
-	<p class="c0"><span class="c1">Despite our persistent and aggressive efforts to collect the monies owed to {{CliFile_Name}}, the debtor did not satisfy, or commit to satisfying, the remaining small balance due. &nbsp;Further, it is apparent the debtor does not intend to make any voluntary payment in the future. &nbsp;Ordinarily, at this time, we would consider the merits of filing a lawsuit. &nbsp;However, in this case, filing suit is not cost justifiable due to the size of the remaining balance due {{CliFile_Name}}. &nbsp;Thus, we are unfortunately forced to close our file as uncollectible.</span></p>
-	<p class="c0 c2"><span class="c1"></span></p>
+	<p class="c0 c3"><span class="c1"></span></p>
+	<p class="c0"><span class="c1">The Bankruptcy Court notified us that the bankruptcy case was closed, as the case was dismissed. &nbsp;Immediately upon receiving the dismissal notification, we contacted the trustee to inquire further about the reason for the dismissal and whether there is any possibility to secure payment from the debtor. &nbsp;The trustee disclosed the debtor did not have any money or assets to pay the necessary bankruptcy costs to continue with their bankruptcy case. &nbsp;Therefore, if the debtor did not have enough money to proceed with their bankruptcy case to discharge all monies owed, then we are certain the debtor does not have any money or assets to satisfy any portion of the outstanding debt owed to {{CliFile_Name}}. &nbsp;Accordingly, we are unfortunately forward to close our file as uncollectible.</span></p>
+	<p class="c0 c3"><span class="c1"></span></p>
 	<p class="c0"><span class="c1">If you have not done so already, please take this opportunity to write off the balance as a bad debt for IRS tax purposes. &nbsp;We appreciate the opportunity to be of service to {{CliFile_Name}} and look forward to assisting you on future matters.</span></p>
-	<p class="c0 c2"><span class="c1"></span></p>
+	<p class="c0 c3"><span class="c1"></span></p>
 	<p class="c0"><span class="c1">Very truly yours,</span></p>
-	<p class="c0 c2"><span class="c1"></span></p>
-	<p class="c0"><span class="c3">{{COLLECTOR_NAME_SIGNATURE}}</span></p>
-	<p class="c0 c2"><span class="c1"></span></p>
+	<p class="c0 c3"><span class="c1"></span></p>
+	<p class="c0"><span class="c6">{{COLLECTOR_NAME_SIGNATURE}}</span></p>
+	<p class="c0 c3"><span class="c1"></span></p>
 	<p class="c0"><span class="c1">{{Collector_Pseudonym}}</span></p>
 	<p class="c0"><span class="c1">American Financial Management, Inc.</span></p>
-	<div class="image-wrap" style="margin-top: 60px;opacity: 0.7;">
+	<div class="image-wrap" style="margin-top: 90px;opacity: 0.7;">
 		<p  style="vertical-align: middle;margin: 0; color: #000000; font-size: 12px;  font-family: 'Roboto', sans-serif; padding-top: 0px; padding-bottom: 0px; line-height: 1.5; orphans: 2; widows: 2; text-align: left;display:inline-block;width: 50%;border-left: solid 2px #007CC3; padding-left: 20px;opacity: 0.7;text-decoration: none;font-weight: normal;height: auto">
 			P.O. BOX 735633, Chicago, IL 60673-5633<br>
 			(800) 426-5532  |  (847) 259-7000<br>
