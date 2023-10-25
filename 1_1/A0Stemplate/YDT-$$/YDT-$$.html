@@ -171,7 +171,7 @@
 	}
 
 	.lst-kix_list_6-3 > li:before {
-		content: "\0025cf   ";
+		content: "\2022   ";
 	}
 
 	.lst-kix_list_6-0 > li:before {
@@ -227,7 +227,7 @@
 	}
 
 	.lst-kix_list_6-6 > li:before {
-		content: "\0025cf   ";
+		content: "\2022   ";
 	}
 
 	ol.lst-kix_list_1-3 {
@@ -1281,8 +1281,8 @@
 	</p>
 </div>
 <div class="c14 doc-content">
-	<p class="c4"><span class="c10">{{Client_Ref_Num}};-{{Account_Number}};F{{Desk}};-{{Account_Zip}};</span></p>
-	<p class="c4"><span class="c2">{{Account_Address_Block2_No_Filenum}};</span></p>
+	<p class="c4"><span class="c10">{{Client_Ref_Num}}-{{Account_Number}}F{{Desk}}-{{Account_Zip}}</span></p>
+	<p class="c4"><span class="c2">{{Account_Address_Block2_No_Filenum}}</span></p>
 	<div class="border-block-wrap">
 		<div class="border-block">
 			<p>Creditor Name:</p>
@@ -1305,11 +1305,11 @@
 			<span>{{Actual_Total_Jmt_NonJmt_Owing}}</span>
 		</div>
 	</div>
-	<p class="c4"><span class="c3">We previously notified you that {{CliFile_Name}}; (&ldquo;ADT&rdquo;) engaged our firm to collect the unpaid {{Actual_Total_Jmt_NonJmt_Owing}}; balance due. &nbsp;Both our records and ADT&rsquo;s records show that the {{Actual_Total_Jmt_NonJmt_Owing}}; balance remains unpaid.</span></p>
+	<p class="c4"><span class="c3">We previously notified you that {{CliFile_Name}} (&ldquo;ADT&rdquo;) engaged our firm to collect the unpaid {{Actual_Total_Jmt_NonJmt_Owing}} balance due. &nbsp;Both our records and ADT&rsquo;s records show that the {{Actual_Total_Jmt_NonJmt_Owing}} balance remains unpaid.</span></p>
 	<p class="c15"><span class="c3"></span></p>
 	<p class="c13"><span class="c3">Unless this balance is immediately satisfied, this will negatively affect your credit report. &nbsp;Once reported, your credit may be affected for up to six (6) years. &nbsp;In addition, immediate payment will also prevent an increase to the balance since ADT has not added interest, late charges, and attorney fees despite their right to do so.</span></p>
 	<p class="c15"><span class="c3"></span></p>
-	<p class="c4"><span class="c3">It is imperative that you immediately send payment by {{Date_plus_7_days}}; to avoid further action from arising. &nbsp;The {{Actual_Total_Jmt_NonJmt_Owing}}; payment can be sent through the following methods:</span></p>
+	<p class="c4"><span class="c3">It is imperative that you immediately send payment by {{Date_plus_7_days}} to avoid further action from arising. &nbsp;The {{Actual_Total_Jmt_NonJmt_Owing}} payment can be sent through the following methods:</span></p>
 	<ol class="c16 lst-kix_list_2-0 start" start="1">
 		<li class="c1 li-bullet-0"><span class="c3">Mail &ndash; draft a check payable to ADT and mail the check to our office, along with the remittance advise below to ensure proper credit</span></li>
 		<li class="c1 li-bullet-0"><span class="c3">Online* &ndash; pay with check or credit card at: </span><span class="c6"><a class="c8" href="https://www.afm-usa.com/payment">https://www.afm-usa.com/payment</a></span></li>
@@ -1321,15 +1321,15 @@
 	<p class="c15"><span class="c3"></span></p>
 	<p class="c4"><span class="c3">Thank you,</span></p>
 	<p class="c0"><span class="c10"></span></p>
-	<p class="c4"><span class="c2">{{Collector_Pseudonym}};</span></p>
+	<p class="c4"><span class="c2">{{Collector_Pseudonym}}</span></p>
 	<p class="c0"><span class="c10"></span></p>
 	<p class="c12"><span class="c9">- - - - - - - - - - - - - - - - - - - - DETACH AND RETURN WITH YOUR REMITTANCE - - - - - - - - - - - - - - - - - - </span></p>
-	<p class="c4"><span class="c5">Make check payable to: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Account # - {{Client_Ref_Num}};</span></p>
+	<p class="c4"><span class="c5">Make check payable to: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Account # - {{Client_Ref_Num}}</span></p>
 	<p class="c15"><span class="c5"></span></p>
-	<p class="c4"><span class="c11">{{CliFile_Name}}; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="c5">&nbsp; &nbsp; &nbsp; &nbsp;Amount Enclosed: </span></p>
-	<p class="c4"><span class="c3">c/o {{X1020_CO_AFM_NAME}};</span></p>
-	<p class="c4"><span class="c3">{{X1021_AFM_STREET_ADDRESS}};</span></p>
-	<p class="c4"><span class="c3">{{X1022_AFM_CSZ}};</span></p>
+	<p class="c4"><span class="c11">{{CliFile_Name}} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="c5">&nbsp; &nbsp; &nbsp; &nbsp;Amount Enclosed: </span></p>
+	<p class="c4"><span class="c3">c/o {{X1020_CO_AFM_NAME}}</span></p>
+	<p class="c4"><span class="c3">{{X1021_AFM_STREET_ADDRESS}}</span></p>
+	<p class="c4"><span class="c3">{{X1022_AFM_CSZ}}</span></p>
 	<div class="image-wrap" style="margin-top: 60px;opacity: 0.7;">
 		<p class="c6" style="vertical-align: middle;margin: 0; color: #000000; font-size: 12px;  font-family: 'Roboto', sans-serif; padding-top: 0px; padding-bottom: 0px; line-height: 1.5; orphans: 2; widows: 2; text-align: left;display:inline-block;width: 50%;border-left: solid 2px #007CC3; padding-left: 20px;opacity: 0.7;text-decoration: none;font-weight: normal;height: auto">
 			P.O. BOX 735633, Chicago, IL 60673-5633<br>
