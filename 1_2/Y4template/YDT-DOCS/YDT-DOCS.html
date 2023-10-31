@@ -36,7 +36,7 @@
 		counter-increment: lst-ctn-kix_list_2-1;
 	}
 
-	ul.lst-kix_list_1-0 {
+	ol.lst-kix_list_3-0 {
 		list-style-type: none;
 	}
 
@@ -49,7 +49,7 @@
 	}
 
 	.lst-kix_list_3-0 > li:before {
-		content: "\2022   ";
+		content: "" counter(lst-ctn-kix_list_3-0, decimal) ". ";
 	}
 
 	ol.lst-kix_list_3-1.start {
@@ -108,6 +108,10 @@
 		content: "" counter(lst-ctn-kix_list_3-8, lower-roman) ". ";
 	}
 
+	.lst-kix_list_2-0 > li {
+		counter-increment: lst-ctn-kix_list_2-0;
+	}
+
 	.lst-kix_list_2-3 > li {
 		counter-increment: lst-ctn-kix_list_2-3;
 	}
@@ -152,6 +156,10 @@
 		counter-increment: lst-ctn-kix_list_1-4;
 	}
 
+	ol.lst-kix_list_2-0 {
+		list-style-type: none;
+	}
+
 	ol.lst-kix_list_1-6.start {
 		counter-reset: lst-ctn-kix_list_1-6 0;
 	}
@@ -174,6 +182,14 @@
 
 	ol.lst-kix_list_2-8 {
 		list-style-type: none;
+	}
+
+	ol.lst-kix_list_1-0.start {
+		counter-reset: lst-ctn-kix_list_1-0 0;
+	}
+
+	.lst-kix_list_3-0 > li {
+		counter-increment: lst-ctn-kix_list_3-0;
 	}
 
 	.lst-kix_list_3-3 > li {
@@ -236,6 +252,10 @@
 		list-style-type: none;
 	}
 
+	ol.lst-kix_list_1-0 {
+		list-style-type: none;
+	}
+
 	.lst-kix_list_2-4 > li:before {
 		content: "" counter(lst-ctn-kix_list_2-4, lower-latin) ". ";
 	}
@@ -256,8 +276,8 @@
 		list-style-type: none;
 	}
 
-	ul.lst-kix_list_3-0 {
-		list-style-type: none;
+	ol.lst-kix_list_3-0.start {
+		counter-reset: lst-ctn-kix_list_3-0 0;
 	}
 
 	ol.lst-kix_list_1-7 {
@@ -341,11 +361,7 @@
 	}
 
 	.lst-kix_list_1-0 > li:before {
-		content: "\2022   ";
-	}
-
-	ul.lst-kix_list_2-0 {
-		list-style-type: none;
+		content: "" counter(lst-ctn-kix_list_1-0, decimal) ". ";
 	}
 
 	.lst-kix_list_1-1 > li:before {
@@ -354,6 +370,10 @@
 
 	.lst-kix_list_1-2 > li:before {
 		content: "" counter(lst-ctn-kix_list_1-2, lower-roman) ". ";
+	}
+
+	ol.lst-kix_list_2-0.start {
+		counter-reset: lst-ctn-kix_list_2-0 0;
 	}
 
 	.lst-kix_list_1-3 > li:before {
@@ -366,6 +386,10 @@
 
 	ol.lst-kix_list_3-5.start {
 		counter-reset: lst-ctn-kix_list_3-5 0;
+	}
+
+	.lst-kix_list_1-0 > li {
+		counter-increment: lst-ctn-kix_list_1-0;
 	}
 
 	.lst-kix_list_1-6 > li {
@@ -393,14 +417,14 @@
 	}
 
 	li.li-bullet-0:before {
-		margin-left: -15px;
+		margin-left: -18px;
 		white-space: nowrap;
 		display: inline-block;
-		min-width: 15px;
+		min-width: 18px;
 	}
 
 	.lst-kix_list_2-0 > li:before {
-		content: "\2022   ";
+		content: "" counter(lst-ctn-kix_list_2-0, decimal) ". ";
 	}
 
 	.lst-kix_list_2-1 > li:before {
@@ -432,87 +456,18 @@
 		padding: 0;
 	}
 
-	.c0 {
-		color: #000000;
-		font-weight: 400;
-		text-decoration: none;
-		vertical-align: baseline;
-		font-size: 12px;
-		font-family: 'Roboto', sans-serif;
-		font-style: normal;
-	}
-
-	.c17 {
-		color: #000000;
-		font-weight: 400;
-		text-decoration: none;
-		vertical-align: baseline;
-		font-size: 10px;
-		font-family: 'Roboto', sans-serif;
-		font-style: normal;
-	}
-
-	.c1 {
-		padding-top: 0px;
-		padding-bottom: 0px;
-		line-height: 1.4;
-		orphans: 2;
-		widows: 2;
-		text-align: left;
-		height: 11px;
-	}
-
 	.c4 {
+		margin-left: 36px;
 		padding-top: 0px;
+		padding-left: 0px;
 		padding-bottom: 0px;
 		line-height: 1.4;
 		orphans: 2;
 		widows: 2;
 		text-align: justify;
-		height: 11px;
 	}
 
-	.c2 {
-		color: #000000;
-		font-weight: 400;
-		text-decoration: none;
-		vertical-align: baseline;
-		font-size: 11px;
-		font-family: 'Roboto', sans-serif;
-		font-style: normal;
-	}
-
-	.c16 {
-		color: #000000;
-		font-weight: 400;
-		text-decoration: none;
-		vertical-align: baseline;
-		font-size: 11px;
-		font-family: "Arial";
-		font-style: italic;
-	}
-
-	.c5 {
-		color: #000000;
-		font-weight: 400;
-		text-decoration: none;
-		vertical-align: baseline;
-		font-size: 19px;
-		font-family: "Dancing Script";
-		font-style: normal;
-	}
-
-	.c3 {
-		color: #000000;
-		font-weight: 400;
-		text-decoration: none;
-		vertical-align: baseline;
-		font-size: 9px;
-		font-family: 'Roboto', sans-serif;
-		font-style: normal;
-	}
-
-	.c12 {
+	.c14 {
 		margin-left: 36px;
 		padding-top: 0px;
 		padding-bottom: 0px;
@@ -522,18 +477,68 @@
 		text-align: right;
 	}
 
-	.c7 {
+	.c10 {
+		color: #000000;
+		font-weight: 400;
+		text-decoration: none;
+		vertical-align: baseline;
+		font-size: 3px;
+		font-family: 'Roboto', sans-serif;
+		font-style: normal;
+	}
+
+	.c3 {
+		color: #000000;
+		font-weight: 400;
+		text-decoration: none;
+		vertical-align: baseline;
+		font-size: 12px;
+		font-family: 'Roboto', sans-serif;
+		font-style: normal;
+	}
+
+	.c9 {
+		color: #000000;
+		font-weight: 400;
+		text-decoration: none;
+		vertical-align: baseline;
+		font-size: 10px;
+		font-family: 'Roboto', sans-serif;
+		font-style: normal;
+	}
+
+	.c6 {
+		color: #000000;
+		font-weight: 400;
+		text-decoration: none;
+		vertical-align: baseline;
+		font-size: 4px;
+		font-family: 'Roboto', sans-serif;
+		font-style: normal;
+	}
+
+	.c18 {
 		color: #000000;
 		font-weight: 400;
 		text-decoration: none;
 		vertical-align: baseline;
 		font-size: 19px;
-		font-family: "Arial";
+		font-family: "Dancing Script";
 		font-style: normal;
 	}
 
-	.c15 {
+	.c7 {
 		color: #000000;
+		font-weight: 700;
+		text-decoration: none;
+		vertical-align: baseline;
+		font-size: 12px;
+		font-family: 'Roboto', sans-serif;
+		font-style: normal;
+	}
+
+	.c17 {
+		color: #0563c1;
 		font-weight: 700;
 		vertical-align: baseline;
 		font-size: 12px;
@@ -541,135 +546,76 @@
 		font-style: normal;
 	}
 
-	.c23 {
+	.c0 {
+		padding-top: 0px;
+		padding-bottom: 0px;
+		line-height: 1.4;
+		orphans: 2;
+		widows: 2;
+		text-align: left;
+	}
+
+	.c5 {
+		padding-top: 0px;
+		padding-bottom: 0px;
+		line-height: 1.4;
+		orphans: 2;
+		widows: 2;
+		text-align: justify;
+	}
+
+	.c16 {
 		color: #000000;
 		font-weight: 700;
+		text-decoration: none;
 		vertical-align: baseline;
-		font-size: 10px;
-		font-family: "Arial";
-		font-style: normal;
-	}
-
-	.c27 {
-		color: #000000;
-		font-weight: 400;
-		vertical-align: baseline;
-		font-size: 11px;
-		font-family: "Arial";
-		font-style: normal;
-	}
-
-	.c24 {
-		padding-top: 0px;
-		padding-bottom: 0px;
-		line-height: 1.4;
-		orphans: 2;
-		widows: 2;
-		text-align: left;
-	}
-
-	.c6 {
-		padding-top: 0px;
-		padding-bottom: 0px;
-		line-height: 1.4;
-		orphans: 2;
-		widows: 2;
-		text-align: justify;
-	}
-
-	.c21 {
-		color: #000000;
-		font-weight: 400;
-		vertical-align: baseline;
-		font-size: 4px;
 		font-family: 'Roboto', sans-serif;
 		font-style: normal;
 	}
 
-	.c13 {
-		padding-top: 0px;
-		padding-bottom: 0px;
-		line-height: 1.4;
-		orphans: 2;
-		widows: 2;
-		text-align: justify;
+	.c2 {
+		text-decoration-skip-ink: none;
+		font-size: 8px;
+		-webkit-text-decoration-skip: none;
+		text-decoration: underline;
 	}
 
-	.c11 {
-		padding-top: 0px;
-		padding-bottom: 0px;
-		line-height: 1.4;
-		orphans: 2;
-		widows: 2;
-		text-align: center;
-	}
-
-	.c9 {
-		padding-top: 0px;
-		padding-bottom: 0px;
-		line-height: 1.4;
-		orphans: 2;
-		widows: 2;
-		text-align: left;
-	}
-
-	.c25 {
-		color: #000000;
-		font-weight: 400;
-		vertical-align: baseline;
-		font-size: 3px;
-		font-family: 'Roboto', sans-serif;
-		font-style: normal;
-	}
-
-	.c19 {
-		font-size: 10px;
-		font-family: "Arial";
-		font-style: italic;
-		font-weight: 400;
-	}
-
-	.c10 {
+	.c8 {
 		text-decoration-skip-ink: none;
 		-webkit-text-decoration-skip: none;
 		text-decoration: underline;
 	}
 
-	.c20 {
+	.c13 {
 		background-color: #ffffff;
-		max-width: 568px;
-		padding: 52px 72px 18px 72px;
-		margin-right: auto;
+		max-width: 565px;
 		margin-left: auto;
+		margin-right: auto;
+		padding: 40px 72px 20px 72px;
 	}
 
-	.c22 {
-		color: inherit;
-		text-decoration: inherit;
-	}
-
-	.c26 {
+	.c15 {
 		padding: 0;
 		margin: 0;
 	}
 
-	.c8 {
-		margin-left: 36px;
-		padding-left: 0px;
+	.c12 {
+		color: inherit;
+		text-decoration: inherit;
 	}
 
-	.c14 {
-		height: 12px;
+	.c11 {
+		font-size: 8px;
 	}
 
-	.c18 {
-		text-decoration: none;
+	.c1 {
+		height: 11px;
 	}
 
 	.title {
 		padding-top: 0px;
 		color: #000000;
-		font-size: 15px;
+		font-size: 14px;
 		padding-bottom: 0px;
 		font-family: "Times New Roman";
 		line-height: 1.4;
@@ -788,64 +734,68 @@
 		widows: 2;
 		text-align: left;
 	}
-	.title-wrap {
-		opacity: 1;
-		padding-bottom: 5px;
-	}
-	.r-text {
-		display: inline-block;width: 49.5%;text-align: right;
-	}
-	.l-text {
-		display: inline-block;width: 49.5%;text-align: left;margin-top: 5px;
-	}
-	.text-right {
-		text-align: right;
+	body {
+		padding: 0;
+		margin: 0;
 	}</style>
 </head>
-<body class="c20 doc-content">
-<div class="title-wrap">
-	<p class="c11 title"><span class="c7">Richard T Avis, Attorney</span></p>
-	<p class="c11 title"><span class="c7">&amp; Associates, LLC</span></p>
-	<p class="c1 title"><span class="c18 c23"></span></p>
-	<p class="c9 title l-text"><span class="c16">Richard T Avis<br><br>P.O. Box 735633 <br>Chicago, IL &nbsp;60673-5633</span></p>
-	<p class="c9 title r-text"><span class="c16">Barry Serota (1948-2009)<br><br>Phone: &nbsp; &nbsp;(847) 259-4700<br>Fax: &nbsp; &nbsp;(847) 259-9434</span></p>
+<body>
+<div>
+	<span
+		style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 256.33px; height: 127.67px;">
+		<img alt="logo" src="https://res.cloudinary.com/dlfckeioh/image/upload/v1694784698/image2_poicxa.png"
+				 width="256.33px" height="127.68px">
+	</span>
 </div>
-<p class="c1"><span class="c3"></span></p>
-<p class="c1"><span class="c3"></span></p>
-<p class="c9"><span class="c0">{{Todays_Date_MMMM_DD_YYYY}}</span></p>
-<p class="c14 c24"><span class="c2"></span></p>
-<p class="c9"><span class="c0">{{Account_Address_Block}}</span></p>
-<p class="c9"><span class="c0">File # {{Account_Number}}</span></p>
-<p class="c9"><span class="c0">Creditor: {{CliFile_Name}}</span></p>
-<p class="c9"><span class="c0">Creditor Reference # {{Client_Ref_Num}}</span></p>
-<p class="c9"><span>Amount Due: </span><span class="c10">{{Actual_Total_Jmt_NonJmt_Owing}}</span></p>
-<p class="c1"><span class="c3"></span></p>
-<p class="c1"><span class="c3"></span></p>
-<p class="c6"><span class="c0">{{Field1_From_LtrRequest}}</span></p>
-<p class="c4"><span class="c3"></span></p>
-<p class="c6"><span class="c0">We have not received payment to resolve the {{Actual_Total_Jmt_NonJmt_Owing}} balance owed to {{CliFile_Name}} and you have had ample opportunity to submit payment or actively communicate with our office. &nbsp;Since this matter has not progressed towards resolution, by {{Date_plus_7_days}}, we must receive the {{Actual_Total_Jmt_NonJmt_Owing}} amount {{Account_Name}} contractually owes to {{CliFile_Name}}, or a telephone call or email from {{Account_Name}} to specifically address the past-due balance. &nbsp;Otherwise, we will provide {{CliFile_Name}} with their legal options moving forward.</span></p>
-<p class="c4"><span class="c3"></span></p>
-<p class="c6"><span class="c0">To satisfy the {{Actual_Total_Jmt_NonJmt_Owing}} balance and avoid further action from arising, payment must be made by {{Date_plus_7_days}} through any of the following methods:</span></p>
-<p class="c4"><span class="c3"></span></p>
-<ul class="c26 lst-kix_list_3-0 start">
-	<li class="c6 c8 li-bullet-0"><span class="c0">Mail &ndash; draft a check payable to {{CliFile_Name}} with file number {{Account_Number}} on the memo line and mail the check to our office at the address below</span></li>
-	<li class="c6 c8 li-bullet-0"><span class="c0">Online* &ndash; pay with check or credit card with our processor: </span><span class="c10 c15"><a class="c22" href="https://www.afm-usa.com/payment">https://www.afm-usa.com/payment</a></span></li>
-	<li class="c6 c8 li-bullet-0"><span class="c0">Phone* &ndash; pay with check or credit card by contacting our office at </span><span class="c15 c18">(847) 259-4700</span><span class="c0">.</span></li>
-</ul>
-<p class="c12"><span class="c17">*A convenience fee will be assessed for both check or credit card payments made online or by phone.</span></p>
-<p class="c4"><span class="c3"></span></p>
-<p class="c6"><span class="c0">Your immediate actions will determine how {{CliFile_Name}} is forced to proceed. &nbsp;Please conduct yourself accordingly.</span></p>
-<p class="c1"><span class="c3"></span></p>
-<p class="c6"><span class="c0">Thank you,</span></p>
-<p class="c4"><span class="c2"></span></p>
-<p class="c6"><span class="c5">{{COLLECTOR_NAME_SIGNATURE}}</span></p>
-<p class="c4"><span class="c18 c25"></span></p>
-<p class="c9"><span class="c15 c18">{{Collector_Pseudonym}}</span></p>
-<p class="c9"><span class="c0">{{X1005_Signature_Co_Line_1}} {{X1006_Signature_Co_Line_2}}</span></p>
-<p class="c9"><span class="c0">P.O. Box 735633, Chicago, IL 60673-5633</span></p>
-<p class="c9"><span class="c0">P: (847) 259-4700 | F: (847) 259-9434</span></p>
-<p class="c9"><span class="c0">{{X1095_COLLECTOR_EMAIL_CUSTOM}} </span></p>
-<p class="c1"><span class="c18 c21"></span></p>
-<p class="c9"><span class="c17">This is an attempt to collect a debt by a debt collector. &nbsp;Any information obtained will be used for that purpose.</span></p>
+<div class="c13 doc-content">
+	<p class="c0"><span class="c3">{{Todays_Date_MMMM_DD_YYYY}}</span></p>
+	<p class="c0 c1"><span class="c3"></span></p>
+	<p class="c0"><span class="c3">{{Account_Address_Block}}</span></p>
+	<p class="c0"><span class="c3">File No. {{Account_Number}}</span></p>
+	<p class="c0"><span class="c3">Creditor Name: {{CliFile_Name}}</span></p>
+	<p class="c0"><span class="c3">Debtor Name: {{Account_Name}}</span></p>
+	<p class="c0"><span class="c3">Creditor Reference No. {{Client_Ref_Num}}</span></p>
+	<p class="c0"><span>Amount Due: </span><span class="c8">{{Actual_Total_Jmt_NonJmt_Owing}}</span></p>
+	<p class="c0 c1"><span class="c3"></span></p>
+	<p class="c5 c1"><span class="c3"></span></p>
+	<p class="c0"><span class="c3">Dear {{Field1_From_LtrRequest}},</span></p>
+	<p class="c0 c1"><span class="c3"></span></p>
+	<p class="c5"><span class="c3">The documentation you requested is enclosed hereto. &nbsp;Please let me know if you have any questions.</span></p>
+	<p class="c1 c5"><span class="c3"></span></p>
+	<p class="c5"><span class="c3">To resolve this matter, send the {{Actual_Total_Jmt_NonJmt_Owing}} payment to our office in any of the following methods:</span></p>
+	<ol class="c15 lst-kix_list_3-0 start" start="1">
+		<li class="c4 li-bullet-0"><span class="c3">Mail - draft a check payable to ADT with file number {{Account_Number}} on the memo line and mail the check to our office at the address below</span></li>
+		<li class="c4 li-bullet-0"><span class="c3">Online* - pay with check or credit card at: </span><span class="c8 c17"><a class="c12" href="https://www.afm-usa.com/payment">https://www.afm-usa.com/payment</a></span></li>
+		<li class="c4 li-bullet-0"><span class="c3">Phone* - pay with check or credit card by contacting our office at </span><span class="c7">(847) 259-7000</span><span class="c3">.</span></li>
+	</ol>
+	<p class="c14"><span class="c9">*A convenience fee will be assessed for both check or credit card payments made online or by phone.</span></p>
+	<p class="c5 c1"><span class="c3"></span></p>
+	<p class="c5"><span class="c3">Thank you for your assistance in resolving this matter.</span></p>
+	<p class="c5 c1"><span class="c3"></span></p>
+	<p class="c5"><span class="c3">Sincerely,</span></p>
+	<p class="c5 c1"><span class="c3"></span></p>
+	<p class="c5"><span class="c18">{{COLLECTOR_NAME_SIGNATURE}}</span></p>
+	<p class="c5 c1"><span class="c10"></span></p>
+	<p class="c0"><span class="c7">{{Collector_Pseudonym}}</span></p>
+	<p class="c0"><span class="c3">American Financial Management, Inc.</span></p>
+	<p class="c0"><span class="c3">8755 W. Higgins Rd., Suite 610, Chicago, IL 60631</span></p>
+	<p class="c0"><span class="c3">P: (847) 259-7000 | F: (847) 259-7014</span></p>
+	<p class="c0"><span class="c3">{{X1095_COLLECTOR_EMAIL_CUSTOM}}</span></p>
+	<p class="c0 c1"><span class="c6"></span></p>
+	<p class="c0"><span class="c9">This is an attempt to collect a debt by a debt collector. &nbsp;Any information obtained will be used for that purpose.</span></p>
+	<p class="c0 c1"><span class="c6"></span></p>
+	<p class="c0"><span class="c11">This transmittal may contain confidential information belonging to the sender which is legally privileged and/or exempt from disclosure. &nbsp;The information is intended only for the use of the individual or entity named above. &nbsp;If you are not the intended recipient, you are hereby notified that any disclosure, copying, distribution or the taking of any action in reliance on the contents is </span><span class="c2">strictly prohibited</span><span class="c11">. &nbsp;If you received this transmittal in error, please call the sender immediately to arrange for the return of this letter.</span></p>
+	<div class="image-wrap" style="margin-top: 90px;opacity: 0.7;">
+		<p  style="vertical-align: middle;margin: 0; color: #000000; font-size: 12px;  font-family: 'Roboto', sans-serif; padding-top: 0px; padding-bottom: 0px; line-height: 1.5; orphans: 2; widows: 2; text-align: left;display:inline-block;width: 50%;border-left: solid 2px #007CC3; padding-left: 20px;opacity: 0.7;text-decoration: none;font-weight: normal;height: auto">
+			P.O. BOX 735633, Chicago, IL 60673-5633<br>
+			(800) 426-5532  |  (847) 259-7000<br>
+			<a style="color: #000000;font-family: 'Roboto', sans-serif; text-decoration: none" href="www.afm-usa.com" target="_blank">www.afm-usa.com</a>
+		</p>
+		<p  style="vertical-align: middle;margin: 0; color: #000000; font-size: 12px;  font-family: 'Roboto', sans-serif; padding-top: 0px; padding-bottom: 0px; line-height: 1.5; orphans: 2; widows: 2; text-align: left;display:inline-block;max-width: 40%;margin-left: auto; height: auto">
+			<img alt="" src="https://res.cloudinary.com/dlfckeioh/image/upload/v1695142257/image3_x9jpyd_szccad.jpg" width="264.00px" height="62.81px">
+		</p>
+	</div>
+</div>
+
 </body>
 </html>
