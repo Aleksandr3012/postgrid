@@ -1135,6 +1135,7 @@
 		orphans: 2;
 		widows: 2;
 		text-align: right;
+		width: 45px;
 	}
 
 	.c13 {
@@ -1267,7 +1268,7 @@
 	}
 
 	.c17 {
-		text-indent: 36px;
+		padding-left: 36px;
 	}
 
 	.c36 {
@@ -1476,6 +1477,11 @@
 	.text-left {
 		text-align: left;
 	}
+	.text-right {
+		text-align: right !important;
+		width: 100%;
+	}
+
 	</style>
 </head>
 <body class="c45 doc-content">
@@ -1489,77 +1495,72 @@
 		</p>
 	</div>
 	<div class="title-r-txt">
-		<p class="c18"><span class="c16"> To: Johnny rambo &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;101</span>
+		<p class="c18"><span class="c16"> To: {{Account_Address_Block}}</span>
 		</p>
 		<p class="c18"><span class="c16">101 N MAIN ST</span></p>
 		<p class="c18"><span class="c16">New York,NY 10001</span></p>
 		<br>
-		<p class="c18"><span class="c16"><strong>Reference: 101</strong></span></p>
+		<p class="c18"><span class="c16"><strong>Reference: {{Account_Number}}</strong></span></p>
 	</div>
 
 	<p class="c6"><span class="c30 c22 c25"></span></p>
-	<p class="c13"><span class="c4 c25">American Financial Management is a debt collector</span><span class="c2">. &nbsp;We are trying to collect a debt that you owe to Test Client. We will use any information you give us to help collect the debt.</span>
-	</p>
+	<p class="c13"><span class="c2">{{Todays_Date_MMMM_DD_YYYY}}</span></p>
+	<p class="c13"><span class="c4 c25">American Financial Management is a debt collector</span><span class="c2">. &nbsp;We are trying to collect a debt that you owe to Test Client. We will use any information you give us to help collect the debt.</span></p>
 	<p class="c6"><span class="c30 c22 c25"></span></p>
 	<p class="c6"><span class="c30 c22 c25"></span></p>
 	<div class="l-text">
 		<p class="c18"><span class="c10">Our information shows:</span></p>
 		<div class="border"></div>
 		<p class="c6"><span class="c30 c22 c25"></span></p>
-		<p class="c18"><span class="c2">You had a Test Client account with account number 5268</span></p>
+		<p class="c18"><span class="c2">You had a {{CliFile_Name}} account with account number {{Client_Ref_Num}}</span></p>
 		<br>
 		<p class="c18"><span class="c2 border-light"></span></p>
 		<table class="c0">
 			<tr class="c14">
-				<td class="c28" colspan="1" rowspan="1"><p class="c18"><span
-					class="c22 c4">&nbsp;&nbsp;As of September 11, 2013, you owed: </span></p></td>
-				<td class="c19" colspan="1" rowspan="1"><p class="c7"><span class="c22 c4"><span
-					class="text-left">$&nbsp;&nbsp;</span>5,175.00</span></p></td>
+				<td class="c28" colspan="1" rowspan="1"><p class="c18"><span class="c22 c4">&nbsp;&nbsp;As of {{Special_Field3}}, you owed: </span></p></td>
+				<td class="c19" colspan="1" rowspan="1"><p class="c7"><span class="c22 c4 text-right">{{Asgnd_Amt_PRINCIPAL_Field_Owing}}</span></p></td>
 			</tr>
 			<tr class="c14">
-				<td class="c29" colspan="2" rowspan="1"><p class="c18"><span class="c22 c4">&nbsp;&nbsp;Between September 11, 2013 and today:</span>
+				<td class="c29" colspan="3" rowspan="1"><p class="c18"><span class="c22 c4">&nbsp;&nbsp;Between {{Special_Field3}} and {{Todays_Date_MMMM_DD_YYYY}}:</span>
 				</p></td>
 			</tr>
 			<tr class="c14">
-				<td class="c21" colspan="1" rowspan="1"><p class="c18"><span class="c4">&nbsp; You were charged this amount in interest :</span>
-				</p></td>
-				<td class="c34" colspan="1" rowspan="1"><p class="c7"><span class="c22 c4"><span class="text-left">+ $&nbsp;&nbsp;</span>8,443.36</span>
-				</p></td>
+				<td class="c21" colspan="1" rowspan="1"><p class="c18"><span class="c4">&nbsp; You were charged this amount in interest :</span></p></td>
+				<td class="c34" colspan="1" rowspan="1"><p class="c7"><span class="c22 c4 text-right" >+ {{Int_Owing}}</span></p></td>
 			</tr>
 			<tr class="c14">
-				<td class="c21" colspan="1" rowspan="1"><p class="c18"><span
-					class="c2">&nbsp; You were charged this amount in fees:</span></p></td>
+				<td class="c21" colspan="1" rowspan="1"><p class="c18"><span class="c2">&nbsp; You were charged this amount in fees:</span></p></td>
 				<td class="c34" colspan="1" rowspan="1"><p class="c7">
-					<span class="c4 text-left">+ $&nbsp;&nbsp;&nbsp;&nbsp;</span>
-					<span class="c22 c4"> 500.25</span>
+					<span class="c22 c4 text-right">+ {{Miscellaneous_Costs}}</span>
 				</p></td>
 			</tr>
 			<tr class="c14">
 				<td class="c21" colspan="1" rowspan="1"><p class="c18"><span
-					class="c2">&nbsp; You paid or were credited this <br>&nbsp;amount toward the debt:</span>
+					class="c2">&nbsp; You paid or were credited this <br>&nbsp;&nbsp;amount toward the debt:</span>
 				</p>
 					<p class="c6"><span class="c2"></span></p></td>
 				<td class="c34" colspan="1" rowspan="1"><p class="c7">
-					<span class="c4 text-left">- $ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-					<span class="c22 c4"> 0.00</span>
+					<span class="c22 c4 text-right">- $ 0.00</span>
 				</p></td>
 			</tr>
 			<tr class="c14">
 				<td class="c21 c35" colspan="1" rowspan="1"><p class="c18"><span
 					class="c22 c25 c4">&nbsp;&nbsp;Total amount of the debt now:</span></p></td>
-				<td class="c33" colspan="1" rowspan="1"><p class="c7"><span class="c22 c25 c4 c39">$11,018.61</span></p></td>
+				<td class="c33" colspan="1" rowspan="1"><p class="c7"><span class="c22 c25 c4 c39 text-right">{{Actual_Total_Jmt_NonJmt_Owing}}</span></p></td>
 			</tr>
 		</table>
+		<br><br>
+		<p class="c13"><span class="c2">Thank you, </span><span class="c4 c25">{{Collector_Psuedonym_NoHouse}}</span></p>
 	</div>
 	<div class="r-text">
 		<p class="c13"><span class="c10">How can you dispute the debt?</span></p>
 		<div class="border"></div>
 		<ul class="c27 lst-kix_list_6-0 start">
-			<li class="c13 c20 li-bullet-0"><span class="c3">Call or write us by January 20, 2024 to dispute all or part of the debt.</span><span
+			<li class="c13 c20 li-bullet-0"><span class="c3">Call or write us by {{Date_plus_40_days}} to dispute all or part of the debt.</span><span
 				class="c16">&nbsp; If you do not, we will assume that our information is correct.</span></li>
 			<li class="c12 li-bullet-0"><span class="c3">If you write to us by</span><span class="c16">&nbsp;</span><span
-				class="c3">January 20, 2024</span><span class="c16">, we must stop collection on any amount you dispute until we send you information that shows you owe the debt. &nbsp;You may use the form below or write to us without the form. &nbsp;You may also include supporting documents. We accept disputes electronically at </span><span
-				class="c1"><a class="c9" href="www.afm-usa.com/disputes">www.afm-usa.com/disputes</a></span><span
+				class="c3">{{Date_plus_40_days}}</span><span class="c16">, we must stop collection on any amount you dispute until we send you information that shows you owe the debt. &nbsp;You may use the form below or write to us without the form. &nbsp;You may also include supporting documents. We accept disputes electronically via email at </span><span
+				class="c1"><a class="c9" href="mailto:{{X1095_COLLECTOR_EMAIL_CUSTOM}}">{{X1095_COLLECTOR_EMAIL_CUSTOM}}</a></span><span
 				class="c16">. </span></li>
 		</ul>
 		<p class="c13 c15 c44"><span class="c16"></span></p>
@@ -1568,7 +1569,7 @@
 		<ul class="c27 lst-kix_list_6-0">
 			<li class="c13 c20 li-bullet-0"><span class="c3">Write to ask for the name and address of the original creditor, if different from the current creditor.</span><span
 				class="c16">&nbsp; If you write to us by </span><span class="c3">January 20, 2024</span><span class="c16">, we must stop collection until we send you that information. &nbsp;You may use the form below or write to us without the form. &nbsp;We accept such requests electronically at </span><span
-				class="c1"><a class="c9" href="www.afm-usa.com/request">www.afm-usa.com/request</a></span><span
+				class="c1"><a class="c9" href="mailto:{{X1095_COLLECTOR_EMAIL_CUSTOM}}">{{X1095_COLLECTOR_EMAIL_CUSTOM}}</a></span><span
 				class="c16">. </span></li>
 			<li class="c13 c20 li-bullet-0"><span class="c16">Go to </span><span class="c22 c25 c31"><a class="c9" href="www.cfpb.gov/debt-collection">www.cfpb.gov/debt-collection</a></span><span
 				class="c3">&nbsp;to learn more about your rights under federal law.</span><span class="c16">&nbsp; For instance, you have the right to stop or limit how we contact you.</span>
@@ -1585,14 +1586,14 @@
 	</p>
 	<div class="l-text">
 		<p class="c18 c17"><span class="c37 c22 c25 c4">Mail this form to:</span></p>
-		<p class="c18 c17"><span class="c16">American Financial Managment</span></p>
+		<p class="c18 c17"><span class="c16">{{CliFile_Name}}, </span></p>
+		<p class="c18 c17"><span class="c16">c/o American Financial Managment</span></p>
 		<p class="c18 c17"><span class="c16">P.O. Box 735633</span></p>
 		<p class="c18 c17"><span class="c16">Chicago, IL 60673</span></p>
 		<p class="c6"><span class="c23"></span></p>
-		<p class="c13 c17"><span class="c2">Johnny rambo &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 101</span>
-		</p>
-		<p class="c13 c17"><span class="c2">101 N MAIN ST</span></p>
-		<p class="c13 c17"><span class="c2">New York,NY 10001</span></p>
+		<p class="c13 c17"><span class="c2">{{Account_Address_Block}}</span></p>
+		<br>
+		<p class="c18 c17"><span class="c24 c22">You can also submit payment through our payment processor at: <a style="color: black;font-weight:bold;display:inline-block;" href="https://www.afm-usa.com/payment" target="_blank">https://www.afm-usa.com/payment</a></span></p>
 	</div>
 	<div class="r-text">
 		<p class="c18"><span class="c10">How do you want to respond? </span></p>
@@ -1608,8 +1609,8 @@
 		<p class="c8"><span class="c3"><span class="box"></span> I enclosed this amount: <span
 			class="box-block">- $</span></span></p>
 		<p class="c8"><span class="c43">Make your check payable to </span><span
-			class="c42">American Financial Management.</span><br>
-			<span class="c43">Include the reference number 101</span></p>
+			class="c42">{{CliFile_Name}}</span><br>
+			<span class="c43">Include the reference number {{Client_Ref_Num}}</span></p>
 		<p class="c8"><span class="c3"><span class="box"></span> Quiero este formulario en espa&ntilde;ol.</span></p>
 	</div>
 
