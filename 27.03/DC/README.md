@@ -1,0 +1,1 @@
+These DC files are manipulated with the scripts\process_dc1_letters_to_postgrid.py script. That script reads the HTML directly, sometimes using an HTML Templating library to add a 2nd page of state specific language. Then the html is pushed directly to Postgrid and with a mail merge. We do not add these HTML files as Postgrid templates. 
